@@ -175,7 +175,8 @@ awful.screen.connect_for_each_screen(function(s)
         "Editor",
         "Terminal",
         "Files",
-        "Music"
+        "Music",
+        "Mail"
     }, s, awful.layout.layouts[1])
 
     -- Create a promptbox for each screen
@@ -502,12 +503,15 @@ awful.rules.rules = {
 
     -- Set Firefox to always map on the tag named "2" on screen 1.
     { rule = { class = "Firefox" },
-      properties = { screen = 1, tag = "Browser" } },
+        properties = { screen = 1, tag = "Browser" } },
 
-      -- Set Firefox to always map on the tag named "2" on screen 1.
-    { rule = { class = "alacritty" },
-      properties = { opacity = 0.8 } },
-}
+    { rule = { class = "code" },
+        properties = { screen = 1, tag = "Editor" } },
+
+
+    { rule = { class = "mutt" },
+            properties = { screen = 1, tag = "Mail" } },
+    }
 -- }}}
 
 -- {{{ Signals
@@ -574,5 +578,17 @@ client.connect_signal("focus", function(c) c.border_color = beautiful.border_foc
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
 
--- Include for window transparency
-awful.util.spawn("compton")
+-- Autorun applications
+autorun = true
+autorunApps =
+{
+    "firefox",
+    "picom -b",
+    "mutt",
+    "code",
+}
+if autorun then
+    for app = 1, #autorunApps do
+        awful.util.spawn(autorunApps[app])
+    end
+end

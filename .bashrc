@@ -19,6 +19,7 @@ alias grep='grep --color=auto'
 alias la="ls -lisa --color=auto -a"
 alias ll="ls -lisa --color=auto"
 alias userlist="cut -d: -f1 /etc/passwd"
+alias code="flatpak run com.visualstudio.code"
 
 # Jump to dir
 up(){

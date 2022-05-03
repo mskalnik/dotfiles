@@ -20,6 +20,7 @@ alias la="ls -lisa --color=auto -a"
 alias ll="ls -lisa --color=auto"
 alias userlist="cut -d: -f1 /etc/passwd"
 alias code="flatpak run com.visualstudio.code"
+alias cfg="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
 # Jump to dir
 up(){

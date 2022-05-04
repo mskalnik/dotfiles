@@ -7,7 +7,8 @@
 alias ..="cd .."
 alias awesomerc="vim ~/.config/awesome/rc.lua"
 alias bashrc="vim ~/.bashrc"
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias code="flatpak run com.visualstudio.code"
+alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias ga="git add"
 alias gst="git status"
 alias gd="git diff"
@@ -19,8 +20,6 @@ alias grep='grep --color=auto'
 alias la="ls -lisa --color=auto -a"
 alias ll="ls -lisa --color=auto"
 alias userlist="cut -d: -f1 /etc/passwd"
-alias code="flatpak run com.visualstudio.code"
-alias cfg="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
 # Jump to dir
 up(){

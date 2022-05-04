@@ -14,10 +14,23 @@ configure_bluetooth() {
     systemctl start bluetooth
 }
 
+configure_dotfiles() {
+    echo ".dotfiles" >> .gitignore
+    git clone --bare git@github.com:mskalnik/dotfiles.git $HOME/.dotfiles
+    alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+    # move all conflicting config files to a backup folder
+    mkdir -p .dotfiles-backup && \
+        dotfiles checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | \
+        xargs -I{} mv {} .dotfiles-backup/{}
+    dotfiles checkout
+    dotfiles config --local status.showUntrackedFiles no
+}
+
 init() {
     install_packages
     configure_qtile
     configure_bluetooth
+    configure_dotfiles
 }
 
 init

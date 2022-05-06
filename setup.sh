@@ -1,8 +1,8 @@
 #!/bin/bash
 
 install_packages() {
-    sudo pacman -S flatpak neofetch htop vim firefox git thunar ranger unzip ttf-jetbrains-mono bluez bluez-utils
-    flatpak install flathub com.bitwarden.desktop com.visualstudio.code
+    sudo pacman -S -y python-pip blueman flatpak neofetch steam htop vim git thunar ranger unzip ttf-jetbrains-mono bluez bluez-utils
+    flatpak install -y flathub com.bitwarden.desktop com.visualstudio.code flathub org.mozilla.firefox
 }
 
 configure_qtile() {
@@ -12,9 +12,12 @@ configure_qtile() {
 
 configure_bluetooth() {
     systemctl start bluetooth
+    pip install dbus-next
 }
 
 configure_dotfiles() {
+    # TODO: add proper .gitignore for all files
+    # and remove those files after git clone
     echo ".dotfiles" >> .gitignore
     git clone --bare git@github.com:mskalnik/dotfiles.git $HOME/.dotfiles
     alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

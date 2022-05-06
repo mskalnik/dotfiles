@@ -5,8 +5,8 @@
 [[ $- != *i* ]] && return
 
 alias ..="cd .."
-alias awesomerc="vim ~/.config/awesome/rc.lua"
 alias bashrc="vim ~/.bashrc"
+alias bt="blueman-applet"
 alias code="flatpak run com.visualstudio.code"
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias ga="git add"
@@ -19,6 +19,7 @@ alias gpf="git push --force-with-lease"
 alias grep='grep --color=auto'
 alias la="ls -lisa --color=auto -a"
 alias ll="ls -lisa --color=auto"
+alias qtilerc="vim ~/.config/qtile/config.py"
 alias userlist="cut -d: -f1 /etc/passwd"
 
 # Jump to dir

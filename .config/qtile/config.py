@@ -1,26 +1,10 @@
-from libqtile import layout
 from libqtile.config import Click, Drag, Match
 from libqtile.lazy import lazy
 
 from keys import keys, mod
 from groups import groups
 from screens import screens
-
-layouts = [
-    layout.Columns(
-        border_focus_stack=["#d75f5f", "#8f3d3d"],
-        margin=8
-    ),
-    # layout.Bsp(),
-    # layout.Matrix(),
-    # layout.MonadTall(),
-    # layout.MonadWide(),
-    # layout.RatioTile(),
-    # layout.Tile(),
-    # layout.TreeTab(),
-    # layout.VerticalTile(),
-    # layout.Zoomy(),
-]
+from layouts import layout
 
 widget_defaults = dict(
     font="JetBrains mono",

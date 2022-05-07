@@ -139,7 +139,7 @@ screens = [
                     },
                     name_transform=lambda name: name.upper(),
                 ),
-                widget.TextBox("default config", name="default"),
+                widget.PulseVolume(fmt='Vol: {}'),
                 widget.Systray(),
                 # widget.Bluetooth(),
                 widget.Clock(format="%Y-%m-%d %a %I:%M %p"),
@@ -174,7 +174,6 @@ floating_layout = layout.Floating(
         Match(wm_class="ssh-askpass"),  # ssh-askpass
         Match(title="branchdialog"),  # gitk
         Match(title="pinentry"),  # GPG key password entry
-        Match(title="Bluetooth Devices") # bluetooth
     ]
 )
 auto_fullscreen = True

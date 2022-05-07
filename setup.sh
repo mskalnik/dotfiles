@@ -29,11 +29,16 @@ configure_dotfiles() {
     dotfiles config --local status.showUntrackedFiles no
 }
 
+configure_monitors() {
+    xrandr --output DP-2 --left-of DP-0
+}
+
 init() {
     install_packages
     configure_qtile
     configure_bluetooth
     configure_dotfiles
+    configure_monitors
 }
 
 init

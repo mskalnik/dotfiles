@@ -1,15 +1,14 @@
 import os
 import subprocess
 
-from libqtile.config import Click, Drag, Match
-from libqtile.lazy import lazy
 from libqtile import hook
+from libqtile.config import Match
 
-from keys import keys, mod
 from groups import groups
-from screens import screens
+from keys import keys, mod
 from layouts import layout
 from mouse import mouse
+from screens import screens
 
 widget_defaults = dict(
     font="JetBrains mono",

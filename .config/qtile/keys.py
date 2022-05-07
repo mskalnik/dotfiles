@@ -5,7 +5,8 @@ mod = "mod4"
 terminal = "alacritty"
 
 keys = [
-    Key([mod], "h",
+    Key(
+        [mod], "h",
         lazy.layout.left(),
         desc="Move focus to left",
     ),

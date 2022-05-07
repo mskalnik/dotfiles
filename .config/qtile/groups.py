@@ -1,5 +1,6 @@
 from libqtile.command import lazy
 from libqtile.config import Group, Key
+
 from keys import keys, mod
 
 groups = [Group(i) for i in "123456789"]

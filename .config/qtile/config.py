@@ -1,5 +1,9 @@
+import os
+import subprocess
+
 from libqtile.config import Click, Drag, Match
 from libqtile.lazy import lazy
+from libqtile import hook
 
 from keys import keys, mod
 from groups import groups
@@ -50,3 +54,8 @@ wl_input_rules = None
 # We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
 # java that happens to be on java's whitelist.
 wmname = "LG3D"
+
+@hook.subscribe.startup_once
+def autostart():
+    home = os.path.expanduser('~/.config/qtile/scripts/autostart.sh')
+    subprocess.run([home])

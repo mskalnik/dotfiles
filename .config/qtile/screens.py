@@ -5,29 +5,44 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.GroupBox(),
+                widget.GroupBox(
+                    font="JetBrains mono",
+                    fontsize=16,
+                ),
                 widget.Prompt(),
-                widget.WindowName(),
                 widget.Chord(
                     chords_colors={
                         "launch": ("#ff0000", "#ffffff"),
                     },
                     name_transform=lambda name: name.upper(),
                 ),
-                widget.PulseVolume(fmt="vol: {}"),
+                widget.Spacer(),
+                widget.PulseVolume(
+                    fmt="vol: {}",
+                    font="JetBrains mono",
+                    fontsize=16,
+                ),
                 widget.Systray(),
                 widget.CheckUpdates(
-                    display_format="Updates: {updates}",
+                    display_format="{updates} update found!",
                     distro="Arch",
+                    font="JetBrains mono",
+                    fontsize=16,
                     update_interval=60,
                 ),
                 widget.Clock(
-                    fontsize=14,
+                    font="JetBrains mono",
+                    fontsize=16,
                     format="%Y-%m-%d %R",
                 ),
-                widget.QuickExit(),
+                widget.QuickExit(
+                    countdown_format='[{}]',
+                    default_text='[X]',
+                    font="JetBrains mono",
+                    fontsize=16,
+                ),
             ],
-            24,
+            30,
         ),
         wallpaper='~/.config/qtile/background.jpg',
         wallpaper_mode='fill',
@@ -35,26 +50,19 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.GroupBox(),
+                widget.GroupBox(
+                    font="JetBrains mono",
+                    fontsize=16,
+                ),
                 widget.Prompt(),
-                widget.WindowName(),
                 widget.Chord(
                     chords_colors={
                         "launch": ("#ff0000", "#ffffff"),
                     },
                     name_transform=lambda name: name.upper(),
                 ),
-                widget.PulseVolume(fmt="vol: {}"),
-                widget.Systray(),
-                widget.CheckUpdates(
-                    display_format="Updates: {updates}",
-                    distro="Arch",
-                    update_interval=60,
-                ),
-                widget.Clock(format="%Y-%m-%d %R"),
-                widget.QuickExit(),
             ],
-            24,
+            30,
         ),
         wallpaper='~/.config/qtile/background.jpg',
         wallpaper_mode='fill',

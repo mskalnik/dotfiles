@@ -1,9 +1,6 @@
 from libqtile import bar, widget
 from libqtile.config import Screen
 
-time_format = "%Y-%m-%d %R"
-volume_format = "vol: {}"
-
 screens = [
     Screen(
         top=bar.Bar(
@@ -17,9 +14,17 @@ screens = [
                     },
                     name_transform=lambda name: name.upper(),
                 ),
-                widget.PulseVolume(fmt=volume_format),
+                widget.PulseVolume(fmt="vol: {}"),
                 widget.Systray(),
-                widget.Clock(format=time_format),
+                widget.CheckUpdates(
+                    display_format="Updates: {updates}",
+                    distro="Arch",
+                    update_interval=60,
+                ),
+                widget.Clock(
+                    fontsize=14,
+                    format="%Y-%m-%d %R",
+                ),
                 widget.QuickExit(),
             ],
             24,
@@ -39,9 +44,14 @@ screens = [
                     },
                     name_transform=lambda name: name.upper(),
                 ),
-                widget.PulseVolume(fmt=volume_format),
+                widget.PulseVolume(fmt="vol: {}"),
                 widget.Systray(),
-                widget.Clock(format=time_format),
+                widget.CheckUpdates(
+                    display_format="Updates: {updates}",
+                    distro="Arch",
+                    update_interval=60,
+                ),
+                widget.Clock(format="%Y-%m-%d %R"),
                 widget.QuickExit(),
             ],
             24,

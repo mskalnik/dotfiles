@@ -1,7 +1,7 @@
 #!/bin/bash
 
 install_packages() {
-    sudo pacman -S -y pavucontrol rofi python-pip blueman flatpak neofetch steam htop nvim git thunar ranger unzip ttf-jetbrains-mono bluez bluez-utils
+    sudo pacman -S -y picom pavucontrol rofi python-pip blueman flatpak neofetch steam htop nvim git thunar ranger unzip ttf-jetbrains-mono bluez bluez-utils
     flatpak install -y flathub com.discordapp.Discord com.bitwarden.desktop com.visualstudio.code flathub org.mozilla.firefox
 }
 

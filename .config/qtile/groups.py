@@ -3,7 +3,37 @@ from libqtile.config import Group, Key
 
 from keys import keys, mod
 
-groups = [Group(i) for i in "123456789"]
+groups = [
+    Group(
+        "1",
+        label="/home",
+        spawn=["alacritty -e neofetch", "alacritty -e htop"],
+    ),
+    Group(
+        "2",
+        label="/dev",
+        spawn=["code", "alacritty"],
+    ),
+    Group(
+        "3",
+        label="/net",
+        spawn="firefox",
+    ),
+    Group(
+        "4",
+        label="/mus",
+        spawn="spotify",
+    ),
+    Group(
+        "5",
+        label="/com",
+        spawn="discord",
+    ),
+    Group(
+        "6",
+        label="/tmp",
+    ),
+]
 
 for i in groups:
     keys.extend(

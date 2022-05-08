@@ -24,6 +24,8 @@ screens = [
             ],
             24,
         ),
+        wallpaper='~/.config/qtile/background.jpg',
+        wallpaper_mode='fill',
     ),
     Screen(
         top=bar.Bar(
@@ -44,5 +46,7 @@ screens = [
             ],
             24,
         ),
+        wallpaper='~/.config/qtile/background.jpg',
+        wallpaper_mode='fill',
     ),
 ]

@@ -7,30 +7,45 @@ groups = [
     Group(
         "1",
         label="/home",
-        spawn=["alacritty -e neofetch", "alacritty -e htop"],
+        spawn=["alacritty --hold -e neofetch", "alacritty -e htop"],
     ),
     Group(
         "2",
-        label="/dev",
+        label="/dev0",
         spawn=["code", "alacritty"],
     ),
     Group(
         "3",
+        label="/dev1",
+        spawn=["code", "alacritty"],
+    ),
+    Group(
+        "4",
+        label="/dev2",
+        spawn=["code", "alacritty"],
+    ),
+    Group(
+        "5",
+        label="/dev3",
+        spawn=["code", "alacritty"],
+    ),
+    Group(
+        "6",
         label="/net",
         spawn="firefox",
     ),
     Group(
-        "4",
+        "7",
         label="/mus",
         spawn="spotify",
     ),
     Group(
-        "5",
+        "8",
         label="/com",
         spawn="discord",
     ),
     Group(
-        "6",
+        "9",
         label="/tmp",
     ),
 ]

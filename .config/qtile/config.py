@@ -40,7 +40,7 @@ auto_minimize = True
 wl_input_rules = None
 wmname = "LG3D"
 
-@hook.subscribe.startup_once
+@hook.subscribe.startup
 def autostart():
     home = os.path.expanduser('~/.config/qtile/scripts/autostart.sh')
     subprocess.run([home])

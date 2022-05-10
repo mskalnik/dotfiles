@@ -5,11 +5,6 @@ install_packages() {
     flatpak install -y flathub com.discordapp.Discord com.bitwarden.desktop com.visualstudio.code flathub org.mozilla.firefox
 }
 
-configure_qtile() {
-    mkdir -p ~/.config/qtile/
-    cp /usr/share/doc/qtile/default_config.py ~/.config/qtile/config.py
-}
-
 configure_bluetooth() {
     systemctl start bluetooth
     pip install dbus-next
@@ -35,7 +30,6 @@ configure_monitors() {
 
 init() {
     install_packages
-    configure_qtile
     configure_bluetooth
     configure_dotfiles
     configure_monitors

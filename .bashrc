@@ -38,3 +38,4 @@ up(){
 }
 
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+. "$HOME/.cargo/env"

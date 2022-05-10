@@ -115,4 +115,9 @@ keys = [
         lazy.spawn("rofi -show run"),
         desc="Spawn the rofi menu",
     ),
+    Key(
+        [], "Print",
+        lazy.spawn("flatpak run org.flameshot.Flameshot gui"),
+        desc="Spawn the rofi menu",
+    ),
 ]

@@ -120,4 +120,9 @@ keys = [
         lazy.spawn("flatpak run org.flameshot.Flameshot gui"),
         desc="Spawn the rofi menu",
     ),
+    Key(
+        [mod], "v",
+        lazy.spawn("flatpak run com.github.hluk.copyq toggle"),
+        desc="Spawn the rofi menu",
+    ),
 ]

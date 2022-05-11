@@ -2,7 +2,7 @@
 
 install_packages() {
     sudo pacman -S -y picom pavucontrol rofi python-pip blueman flatpak neofetch steam htop nvim git thunar ranger unzip ttf-jetbrains-mono bluez bluez-utils
-    flatpak install -y flathub com.github.hluk.copyq com.github.johnfactotum.Foliate org.flameshot.Flameshot com.discordapp.Discord com.bitwarden.desktop com.visualstudio.code flathub org.mozilla.firefox
+    flatpak install -y flathub ar.xjuan.Cambalache com.github.hluk.copyq com.github.johnfactotum.Foliate org.flameshot.Flameshot com.discordapp.Discord com.bitwarden.desktop com.visualstudio.code flathub org.mozilla.firefox
 }
 
 configure_bluetooth() {

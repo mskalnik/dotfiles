@@ -1,8 +1,17 @@
 #!/bin/bash
 
-install_packages() {
-    sudo pacman -S -y picom pavucontrol rofi python-pip blueman flatpak neofetch steam htop nvim git thunar ranger unzip ttf-jetbrains-mono bluez bluez-utils
-    flatpak install -y flathub ar.xjuan.Cambalache com.github.hluk.copyq com.github.johnfactotum.Foliate org.flameshot.Flameshot com.discordapp.Discord com.bitwarden.desktop com.visualstudio.code flathub org.mozilla.firefox
+# refactor needed
+install_pacman() {
+    while read line; do
+        sudo pacman -S -y $line
+    done < ".config/qtile/resources/pacman.list"
+}
+
+# refactor needed
+install_flatpak() {
+    while read line; do
+        flatpak install -y flathub $line
+    done < ".config/qtile/resources/flatpak.list"
 }
 
 configure_bluetooth() {
@@ -29,7 +38,8 @@ configure_monitors() {
 }
 
 init() {
-    install_packages
+    install_pacman
+    install_flatpak
     configure_bluetooth
     configure_dotfiles
     configure_monitors

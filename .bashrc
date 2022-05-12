@@ -4,25 +4,7 @@
 
 [[ $- != *i* ]] && return
 
-alias ..="cd .."
-alias bashrc="nvim ~/.bashrc"
-alias bt="blueman-applet"
-alias code="flatpak run com.visualstudio.code"
-alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
-alias ga="git add"
-alias gst="git status"
-alias gd="git diff"
-alias gc="git commit"
-alias gco="git checkout"
-alias gp="git push"
-alias gpf="git push --force-with-lease"
-alias grep='grep --color=auto'
-alias la="ls -lisa --color=auto -a"
-alias ll="ls -lisa --color=auto"
-alias qtilerc="nvim ~/.config/qtile/"
-alias userlist="cut -d: -f1 /etc/passwd"
-
-# Jump to dir
+# Jump to directory
 up(){
   local d=""
   limit=$1
@@ -37,12 +19,35 @@ up(){
   cd $d
 }
 
+# Paths
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
-# . "$HOME/.cargo/env"
 
-# Git branch
+# Bash prompt
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
-
 export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+
+# Aliases
+alias ..="cd .."
+alias bashrc="nvim ~/.bashrc"
+alias bt="blueman-applet"
+alias code="flatpak run com.visualstudio.code"
+alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias ga="git add"
+alias gst="git status"
+alias gd="git diff"
+alias gc="git commit"
+alias gco="git checkout"
+alias gc!="git commit -v --amend"
+alias glog="git log --oneline --decorate --graph"
+alias gp="git push"
+alias gpf="git push --force-with-lease"
+alias grep='grep --color=auto'
+alias la="ls -lisa --color=auto -a"
+alias ll="ls -lisa --color=auto"
+alias sha="shasum -a 256"
+alias lt="ls --human-readable --size -1 -S --classify"
+alias qtilerc="nvim ~/.config/qtile/"
+alias userlist="cut -d: -f1 /etc/passwd"
+alias update="sudo pacman -Syu -y && flatpak update -y"

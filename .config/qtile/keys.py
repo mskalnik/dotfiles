@@ -125,4 +125,9 @@ keys = [
         lazy.spawn("flatpak run com.github.hluk.copyq toggle"),
         desc="Spawn the rofi menu",
     ),
+    Key(
+        [mod], "Escape",
+        lazy.spawn("slock"),
+        desc="Lock the screen",
+    ),
 ]

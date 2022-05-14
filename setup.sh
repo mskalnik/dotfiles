@@ -14,6 +14,11 @@ install_flatpak() {
     done < ".config/qtile/resources/flatpak.list"
 }
 
+install_doom_emacs() {
+    git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d
+    ~/.emacs.d/bin/doom install
+}
+
 configure_bluetooth() {
     systemctl start bluetooth
     pip install dbus-next
@@ -40,6 +45,7 @@ configure_monitors() {
 init() {
     install_pacman
     install_flatpak
+    install_doom_emacs
     configure_bluetooth
     configure_dotfiles
     configure_monitors

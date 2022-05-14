@@ -45,7 +45,7 @@ screens = [
             30,
             margin=[8,8,0,8],
         ),
-        wallpaper='~/.config/qtile/background.jpg',
+        wallpaper='~/.config/qtile/resources/background.jpg',
         wallpaper_mode='fill',
     ),
     Screen(
@@ -66,7 +66,7 @@ screens = [
             30,
             margin=[8,8,0,8],
         ),
-        wallpaper='~/.config/qtile/background.jpg',
+        wallpaper='~/.config/qtile/resources/background.jpg',
         wallpaper_mode='fill',
     ),
 ]

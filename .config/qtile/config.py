@@ -1,8 +1,9 @@
 import os
 import subprocess
 
-from libqtile import hook, layout
+from libqtile import layout
 from libqtile.config import Match
+from libqtile.hook import subscribe
 
 from groups import groups
 from keys import keys, mod
@@ -41,7 +42,7 @@ auto_minimize = True
 wl_input_rules = None
 wmname = "LG3D"
 
-@hook.subscribe.startup
+@subscribe.startup_complete
 def autostart():
     home = os.path.expanduser('~/.config/qtile/scripts/autostart.sh')
     subprocess.run([home])

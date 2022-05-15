@@ -28,7 +28,6 @@ configure_dotfiles() {
     # TODO: add proper .gitignore for all files
     # and remove those files after git clone
     echo ".dotfiles" >> .gitignore
-    git clone --bare git@github.com:mskalnik/dotfiles.git $HOME/.dotfiles
     alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
     # move all conflicting config files to a backup folder
     mkdir -p .dotfiles-backup && \

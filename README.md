@@ -9,3 +9,12 @@ Install and configure `git`. After that go to the home folder and clone the proj
 Run `setup.sh`:
 
 `chmod +x setup.sh && ./setup.sh`
+
+## Software information
+
+| Type                  | Name                                          |
+|-----------------------|-----------------------------------------------|
+| Operating System      | [Arch](https://archlinux.org/)                |
+| Window Manager        | [Qtile](http://www.qtile.org/)                |
+| Terminal Emulator     | [Alacritty](https://alacritty.org/)           |
+| Application Launcher  | [Rofi](https://github.com/davatorium/rofi)    |

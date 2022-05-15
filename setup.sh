@@ -25,14 +25,6 @@ configure_bluetooth() {
 }
 
 configure_dotfiles() {
-    # TODO: add proper .gitignore for all files
-    # and remove those files after git clone
-    echo ".dotfiles" >> .gitignore
-    alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-    # move all conflicting config files to a backup folder
-    mkdir -p .dotfiles-backup && \
-        dotfiles checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | \
-        xargs -I{} mv {} .dotfiles-backup/{}
     dotfiles checkout
     dotfiles config --local status.showUntrackedFiles no
 }

@@ -22,11 +22,11 @@ up(){
 # Paths
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
-# Bash prompt
+# Bash prompt - https://wiki.archlinux.org/title/Bash/Prompt_customization
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
-export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+export PS1="\[\033[31m\]\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 
 # Aliases
 alias .="cd .."

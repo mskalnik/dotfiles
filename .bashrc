@@ -98,7 +98,7 @@ Jobs="\j"
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
 }
-export PS1="${Yellow}\u@\h ${Cyan}\w${Green}\$(parse_git_branch)${Color_Off}${NewLine}$ "
+export PS1="${BYellow}\u@\h ${Cyan}\w${Green}\$(parse_git_branch)${Color_Off}${NewLine}$ "
 
 # Aliases
 alias .="cd .."

@@ -88,6 +88,8 @@ On_IPurple="\[\033[10;95m\]"  # Purple
 On_ICyan="\[\033[0;106m\]"    # Cyan
 On_IWhite="\[\033[0;107m\]"   # White
 # PS1 variables
+Hostname="\h"
+Username="\u"
 Time12h="\T"
 Time12a="\@"
 PathShort="\w"
@@ -98,7 +100,7 @@ Jobs="\j"
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
 }
-export PS1="${BYellow}\u@\h ${Cyan}\w${Green}\$(parse_git_branch)${Color_Off}${NewLine}$ "
+export PS1="${BYellow}${Username}@${Hostname} ${Cyan}${PathFull}${Green}\$(parse_git_branch)${Color_Off}${NewLine}$ "
 
 # Aliases
 alias .="cd .."
@@ -106,7 +108,7 @@ alias ..="cd ../.."
 alias ...="cd ../../.."
 alias ....="cd ../../../.."
 alias .....="cd ../../../../.."
-alias bashrc="nvim ~/.bashrc"
+alias bashrc="emacs ~/.bashrc"
 alias bt="blueman-applet"
 alias code="flatpak run com.visualstudio.code"
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
@@ -144,7 +146,7 @@ alias ll="ls -lisa --color=auto"
 alias lt="ls --human-readable --size -1 -S --classify"
 alias mkdir="mkdir -pv"
 alias most="du -hsx * | sort -rh | head -10"
-alias qtilerc="nvim ~/.config/qtile/"
+alias qtilerc="emacs ~/.config/qtile/"
 alias sha="shasum -a 256"
 alias update="sudo pacman -Syu -y && flatpak update -y"
 alias userlist="cut -d: -f1 /etc/passwd"

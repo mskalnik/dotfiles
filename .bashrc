@@ -23,84 +23,84 @@ up(){
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 # Bash prompt - https://wiki.archlinux.org/title/Bash/Prompt_customization
-COLOR_OFF="\[\033[0m\]"       # Text Reset
+COLOR_OFF="\[\033[0m\]"
 # Regular Colors
-BLACK="\[\033[0;30m\]"        # BLACK
-RED="\[\033[0;31m\]"          # RED
-GREEN="\[\033[0;32m\]"        # GREEN
-YELLOW="\[\033[0;33m\]"       # YELLOW
-BLUE="\[\033[0;34m\]"         # BLUE
-PURPLE="\[\033[0;35m\]"       # PURPLE
-CYAN="\[\033[0;36m\]"         # CYAN
-WHITE="\[\033[0;37m\]"        # WHITE
+BLACK="\[\033[0;30m\]"
+RED="\[\033[0;31m\]"
+GREEN="\[\033[0;32m\]"
+YELLOW="\[\033[0;33m\]"
+BLUE="\[\033[0;34m\]"
+PURPLE="\[\033[0;35m\]"
+CYAN="\[\033[0;36m\]"
+WHITE="\[\033[0;37m\]"
 # Bold
-BBLACK="\[\033[1;30m\]"       # BLACK
-BRED="\[\033[1;31m\]"         # RED
-BGREEN="\[\033[1;32m\]"       # GREEN
-BYELLOW="\[\033[1;33m\]"      # YELLOW
-BBLUE="\[\033[1;34m\]"        # BLUE
-BPURPLE="\[\033[1;35m\]"      # PURPLE
-BCYAN="\[\033[1;36m\]"        # CYAN
-BWHITE="\[\033[1;37m\]"       # WHITE
+BOLD_BLACK="\[\033[1;30m\]"
+BOLD_RED="\[\033[1;31m\]"
+BOLD_GREEN="\[\033[1;32m\]"
+BOLD_YELLOW="\[\033[1;33m\]"
+BOLD_BLUE="\[\033[1;34m\]"
+BOLD_PURPLE="\[\033[1;35m\]"
+BOLD_CYAN="\[\033[1;36m\]"
+BOLD_WHITE="\[\033[1;37m\]"
 # Underline
-UBLACK="\[\033[4;30m\]"       # BLACK
-URED="\[\033[4;31m\]"         # RED
-UGREEN="\[\033[4;32m\]"       # GREEN
-UYELLOW="\[\033[4;33m\]"      # YELLOW
-UBLUE="\[\033[4;34m\]"        # BLUE
-UPURPLE="\[\033[4;35m\]"      # PURPLE
-UCYAN="\[\033[4;36m\]"        # CYAN
-UWHITE="\[\033[4;37m\]"       # WHITE
+UNDERLINE_BLACK="\[\033[4;30m\]"
+UNDERLINE_RED="\[\033[4;31m\]"
+UNDERLINE_GREEN="\[\033[4;32m\]"
+UNDERLINE_YELLOW="\[\033[4;33m\]"
+UNDERLINE_BLUE="\[\033[4;34m\]"
+UNDERLINE_PURPLE="\[\033[4;35m\]"
+UNDERLINE_CYAN="\[\033[4;36m\]"
+UNDERLINE_WHITE="\[\033[4;37m\]"
 # Background
-On_BLACK="\[\033[40m\]"       # BLACK
-On_RED="\[\033[41m\]"         # RED
-On_GREEN="\[\033[42m\]"       # GREEN
-On_YELLOW="\[\033[43m\]"      # YELLOW
-On_BLUE="\[\033[44m\]"        # BLUE
-On_PURPLE="\[\033[45m\]"      # PURPLE
-On_CYAN="\[\033[46m\]"        # CYAN
-On_WHITE="\[\033[47m\]"       # WHITE
+BACKGROUND_BLACK="\[\033[40m\]"
+BACKGROUND_RED="\[\033[41m\]"
+BACKGROUND_GREEN="\[\033[42m\]"
+BACKGROUND_YELLOW="\[\033[43m\]"
+BACKGROUND_BLUE="\[\033[44m\]"
+BACKGROUND_PURPLE="\[\033[45m\]"
+BACKGROUND_CYAN="\[\033[46m\]"
+BACKGROUND_WHITE="\[\033[47m\]"
 # High Intensty
-IBLACK="\[\033[0;90m\]"       # BLACK
-IRED="\[\033[0;91m\]"         # RED
-IGREEN="\[\033[0;92m\]"       # GREEN
-IYELLOW="\[\033[0;93m\]"      # YELLOW
-IBLUE="\[\033[0;94m\]"        # BLUE
-IPURPLE="\[\033[0;95m\]"      # PURPLE
-ICYAN="\[\033[0;96m\]"        # CYAN
-IWHITE="\[\033[0;97m\]"       # WHITE
+INTENSITY_BLACK="\[\033[0;90m\]"
+INTENSITY_RED="\[\033[0;91m\]"
+INTENSITY_GREEN="\[\033[0;92m\]"
+INTENSITY_YELLOW="\[\033[0;93m\]"
+INTENSITY_BLUE="\[\033[0;94m\]"
+INTENSITY_PURPLE="\[\033[0;95m\]"
+INTENSITY_CYAN="\[\033[0;96m\]"
+INTENSITY_WHITE="\[\033[0;97m\]"
 # Bold High Intensty
-BIBLACK="\[\033[1;90m\]"      # BLACK
-BIRED="\[\033[1;91m\]"        # RED
-BIGREEN="\[\033[1;92m\]"      # GREEN
-BIYELLOW="\[\033[1;93m\]"     # YELLOW
-BIBLUE="\[\033[1;94m\]"       # BLUE
-BIPURPLE="\[\033[1;95m\]"     # PURPLE
-BICYAN="\[\033[1;96m\]"       # CYAN
-BIWHITE="\[\033[1;97m\]"      # WHITE
+BOLD_INTENSITY_BLACK="\[\033[1;90m\]"
+BOLD_INTENSITY_RED="\[\033[1;91m\]"
+BOLD_INTENSITY_GREEN="\[\033[1;92m\]"
+BOLD_INTENSITY_YELLOW="\[\033[1;93m\]"
+BOLD_INTENSITY_BLUE="\[\033[1;94m\]"
+BOLD_INTENSITY_PURPLE="\[\033[1;95m\]"
+BOLD_INTENSITY_CYAN="\[\033[1;96m\]"
+BOLD_INTENSITY_WHITE="\[\033[1;97m\]"
 # High Intensty backgrounds
-On_IBLACK="\[\033[0;100m\]"   # BLACK
-On_IRED="\[\033[0;101m\]"     # RED
-On_IGREEN="\[\033[0;102m\]"   # GREEN
-On_IYELLOW="\[\033[0;103m\]"  # YELLOW
-On_IBLUE="\[\033[0;104m\]"    # BLUE
-On_IPURPLE="\[\033[10;95m\]"  # PURPLE
-On_ICYAN="\[\033[0;106m\]"    # CYAN
-On_IWHITE="\[\033[0;107m\]"   # WHITE
+BACKGROUND_INTENSITY_BLACK="\[\033[0;100m\]"
+BACKGROUND_INTENSITY_RED="\[\033[0;101m\]"
+BACKGROUND_INTENSITY_GREEN="\[\033[0;102m\]"
+BACKGROUND_INTENSITY_YELLOW="\[\033[0;103m\]"
+BACKGROUND_INTENSITY_BLUE="\[\033[0;104m\]"
+BACKGROUND_INTENSITY_PURPLE="\[\033[10;95m\]"
+BACKGROUND_INTENSITY_CYAN="\[\033[0;106m\]"
+BACKGROUND_INTENSITY_WHITE="\[\033[0;107m\]"
 # PS1 variables
-Hostname="\h"
-Username="\u"
-Time12h="\T"
-Time12a="\@"
-PathShort="\w"
-PathFull="\W"
-NewLine="\n"
-Jobs="\j"
+HOSTNAME="\h"
+USERNAME="\u"
+TIME_12H="\T"
+TIME_12A="\@"
+PATH_SHORT="\w"
+PATH_FULL="\W"
+NEW_LINE="\n"
+JOBS="\j"
 
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
 }
-export PS1="${BYELLOW}${Username}@${Hostname} ${CYAN}${PathFull}${GREEN}\$(parse_git_branch)${COLOR_OFF}${NewLine}$ "
+export PS1="${BOLD_YELLOW}${USERNAME}@${HOSTNAME} ${CYAN}${PATH_FULL}${GREEN}\$(parse_git_branch)${COLOR_OFF}${NEW_LINE}$ "
 
 # Aliases
 alias .="cd .."

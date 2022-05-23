@@ -23,13 +23,6 @@ screens = [
                     fontsize=16,
                 ),
                 widget.Systray(),
-                widget.CheckUpdates(
-                    display_format="{updates} update found!",
-                    distro="Arch",
-                    font="JetBrains mono",
-                    fontsize=16,
-                    update_interval=60,
-                ),
                 widget.Clock(
                     font="JetBrains mono",
                     fontsize=16,

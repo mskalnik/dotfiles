@@ -4,11 +4,11 @@
 
 Screen 1:
 
-![screen 1](.config/qtile/resources/screen-1.png)
+![screen 1](./.config/qtile/resources/screen-1.png)
 
 Screen 2:
 
-![screen 2](.config/qtile/resources/screen-2.png)
+![screen 2](./.config/qtile/resources/screen-2.png)
 
 ## Installation
 

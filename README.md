@@ -1,5 +1,15 @@
 # Dotfiles
 
+## Screenshot
+
+Screen 1:
+
+![screen 1](.config/qtile/resources/screen-1.png)
+
+Screen 2:
+
+![screen 2](.config/qtile/resources/screen-2.png)
+
 ## Installation
 
 Install and configure `git`. After that go to the home folder and clone the project:
@@ -12,9 +22,10 @@ Run `setup.sh`:
 
 ## Software information
 
-| Type                  | Name                                          |
-|-----------------------|-----------------------------------------------|
-| Operating System      | [Arch](https://archlinux.org/)                |
-| Window Manager        | [Qtile](http://www.qtile.org/)                |
-| Terminal Emulator     | [Alacritty](https://alacritty.org/)           |
-| Application Launcher  | [Rofi](https://github.com/davatorium/rofi)    |
+| Type                 | Name                                                 |
+|----------------------|------------------------------------------------------|
+| Operating System     | [Arch](https://archlinux.org/)                       |
+| Window Manager       | [Qtile](http://www.qtile.org/)                       |
+| Terminal Emulator    | [Alacritty](https://alacritty.org/)                  |
+| Application Launcher | [Rofi](https://github.com/davatorium/rofi)           |
+| Text Editor          | [Doom Emacs](https://github.com/doomemacs/doomemacs) |

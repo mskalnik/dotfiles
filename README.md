@@ -4,11 +4,11 @@
 
 Screen 1:
 
-![screen 1](./.config/qtile/resources/screen-1.png)
+![screen 1](./screenshots/screen-1.png)
 
 Screen 2:
 
-![screen 2](./.config/qtile/resources/screen-2.png)
+![screen 2](./screenshots/screen-2.png)
 
 ## Installation
 
@@ -29,3 +29,4 @@ Run `setup.sh`:
 | Terminal Emulator    | [Alacritty](https://alacritty.org/)                  |
 | Application Launcher | [Rofi](https://github.com/davatorium/rofi)           |
 | Text Editor          | [Doom Emacs](https://github.com/doomemacs/doomemacs) |
+a

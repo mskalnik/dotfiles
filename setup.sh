@@ -33,6 +33,11 @@ configure_monitors() {
     xrandr --output DP-2 --left-of DP-0
 }
 
+configure_ssh() {
+    eval $(ssh-agent)
+    ssh-add
+}
+
 init() {
     install_pacman
     install_flatpak
@@ -40,6 +45,7 @@ init() {
     configure_bluetooth
     configure_dotfiles
     configure_monitors
+    configure_ssh
 }
 
 init

@@ -29,4 +29,12 @@ Run `setup.sh`:
 | Terminal Emulator    | [Alacritty](https://alacritty.org/)                  |
 | Application Launcher | [Rofi](https://github.com/davatorium/rofi)           |
 | Text Editor          | [Doom Emacs](https://github.com/doomemacs/doomemacs) |
-a
+
+## Testing
+
+To test the config install [Xephyr](https://wiki.archlinux.org/title/Xephyr) and run:
+
+```
+Xephyr -br -ac -noreset -screen 1280x720 :1 &
+DISPLAY=:1 /usr/bin/qtile start
+```

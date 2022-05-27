@@ -103,11 +103,11 @@ parse_git_branch() {
 export PS1="${BOLD_YELLOW}${USERNAME}@${HOSTNAME} ${CYAN}${PATH_FULL}${GREEN}\$(parse_git_branch)${COLOR_OFF}${NEW_LINE}$ "
 
 # Aliases
-alias .="cd .."
-alias ..="cd ../.."
-alias ...="cd ../../.."
-alias ....="cd ../../../.."
-alias .....="cd ../../../../.."
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
 alias bashrc="emacs ~/.bashrc"
 alias bt="blueman-applet"
 alias code="flatpak run com.visualstudio.code"

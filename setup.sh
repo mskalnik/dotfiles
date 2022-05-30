@@ -19,18 +19,9 @@ install_doom_emacs() {
     ~/.emacs.d/bin/doom install
 }
 
-configure_bluetooth() {
-    systemctl start bluetooth
-    pip install dbus-next
-}
-
 configure_dotfiles() {
     dotfiles checkout
     dotfiles config --local status.showUntrackedFiles no
-}
-
-configure_monitors() {
-    xrandr --output DP-2 --left-of DP-0
 }
 
 configure_ssh() {
@@ -42,9 +33,7 @@ init() {
     install_pacman
     install_flatpak
     install_doom_emacs
-    configure_bluetooth
     configure_dotfiles
-    configure_monitors
     configure_ssh
 }
 

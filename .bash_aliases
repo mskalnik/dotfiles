@@ -1,3 +1,4 @@
+# File navigation
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -5,6 +6,10 @@ alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
 alias bashrc="code ~/.bashrc"
 alias c="code"
+alias chgrp='chgrp --preserve-root'
+alias chmod='chmod --preserve-root'
+alias chown='chown --preserve-root'
+alias cp='cp -i'
 alias doom="~/.emacs.d/bin/doom"
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias e="emacs"
@@ -15,8 +20,8 @@ alias gbd="git branch -d"
 alias gbl="git blame -b -w"
 alias gc!="git commit -v --amend"
 alias gc="git commit"
-alias gcm="git commit -m"
 alias gcb="git checkout -b"
+alias gcm="git commit -m"
 alias gco="git checkout"
 alias gcp="git cherry-pick"
 alias gcpa="git cherry-pick --abort"
@@ -41,10 +46,13 @@ alias gstall="git stash --all"
 alias i="intellij-idea-community"
 alias la="ls -lisa --color=auto -a"
 alias ll="ls -lisa --color=auto"
+alias ln='ln -i'
 alias lt="ls --human-readable --size -1 -S --classify"
 alias mkdir="mkdir -pv"
 alias most="du -hsx * | sort -rh | head -10"
+alias mv='mv -i'
 alias qtilerc="code ~/.config/qtile/"
+alias rm='rm -I --preserve-root'
 alias sha="shasum -a 256"
-alias update="sudo apt update && sudo apt upgrade && snap refresh && flatpak update -y"
+alias update="sudo apt update && apt list --upgradable && sudo apt upgrade && snap refresh && flatpak update -y"
 alias userlist="cut -d: -f1 /etc/passwd"

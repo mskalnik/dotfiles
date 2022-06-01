@@ -182,15 +182,15 @@ HOSTNAME="\h"
 USERNAME="\u"
 TIME_12H="\T"
 TIME_12A="\@"
-PATH_SHORT="\w"
-PATH_FULL="\W"
+PATH_FULL="\w"
+PATH_SHORT="\W"
 NEW_LINE="\n"
 JOBS="\j"
 
 parse_git_branch() {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ | git: \1/'
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
 }
-export PS1="${BOLD_YELLOW}${USERNAME}@${HOSTNAME} ${CYAN}| dir: ${PATH_FULL} ${GREEN}\$(parse_git_branch)${COLOR_OFF}${NEW_LINE}$ "
+export PS1="${BOLD_YELLOW}${USERNAME}@${HOSTNAME} ${CYAN}${PATH_FULL}${GREEN}\$(parse_git_branch)${COLOR_OFF}${NEW_LINE}$ "
 
 #cargo
 . "$HOME/.cargo/env"

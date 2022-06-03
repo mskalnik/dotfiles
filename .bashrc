@@ -191,6 +191,3 @@ parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
 }
 export PS1="${BOLD_YELLOW}${USERNAME}@${HOSTNAME} ${CYAN}${PATH_FULL}${GREEN}\$(parse_git_branch)${COLOR_OFF}${NEW_LINE}$ "
-
-#cargo
-. "$HOME/.cargo/env"

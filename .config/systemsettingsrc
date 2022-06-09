@@ -1,10 +1,10 @@
 [MainWindow]
 DP-0 DP-2 Height 2560x1440=700
 DP-0 DP-2 Width 2560x1440=1020
-DP-0 DP-2 XPosition 1920x1080=813
-DP-0 DP-2 XPosition 2560x1440=2690
-DP-0 DP-2 YPosition 1920x1080=294
-DP-0 DP-2 YPosition 2560x1440=362
+DP-0 DP-2 XPosition 1920x1080=711
+DP-0 DP-2 XPosition 2560x1440=2153
+DP-0 DP-2 YPosition 1920x1080=318
+DP-0 DP-2 YPosition 2560x1440=447
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAAA/wAAAK8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
@@ -12,3 +12,6 @@ default Height 1920x1080=1007
 default Width 1920x1080=960
 default XPosition 1920x1080=0
 default YPosition 1920x1080=29
+
+[systemsettings_sidebar_mode]
+HighlightNonDefaultSettings=false

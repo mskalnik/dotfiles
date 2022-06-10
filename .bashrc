@@ -185,7 +185,12 @@ TIME_12A="\@"
 PATH_FULL="\w"
 PATH_SHORT="\W"
 NEW_LINE="\n"
-JOBS="\j"
+JOBS_NUMBER="\j"
+SHELL_NAME="\s"
+SHELL_VERSION="\v"
+SHELL_PATCH_VERSION="\V"
+HISTORY_NUMBER="\!"
+COMMAND_NUMBER="\#"
 
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'

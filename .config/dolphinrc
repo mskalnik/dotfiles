@@ -10,8 +10,8 @@ DP-0 DP-2 Width 2560x1440=438
 
 [MainWindow]
 DP-0 DP-2 Height 2560x1440=648
-DP-0 DP-2 Width 2560x1440=1164
-DP-0 DP-2 XPosition 2560x1440=2416
+DP-0 DP-2 Width 2560x1440=846
+DP-0 DP-2 XPosition 2560x1440=2777
 DP-0 DP-2 YPosition 2560x1440=388
 MenuBar=Disabled
 ToolBarsMovable=Disabled

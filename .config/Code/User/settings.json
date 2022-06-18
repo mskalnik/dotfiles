@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.preferredHighContrastLightColorTheme": "GitHub Dark Default",
+    "workbench.preferredLightColorTheme": "GitHub Dark Default",
+    "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+    "window.dialogStyle": "custom",
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.tabSize": 2,
+    "editor.rulers": [
+        80,
+        100
+    ]
+}

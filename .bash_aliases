@@ -53,6 +53,7 @@ alias mkdir="mkdir -pv"
 alias most="du -hsx * | sort -rh | head -10"
 alias mv="mv -i"
 alias qtilerc="code ~/.config/qtile/"
+alias pls='sudo $(history -p !!)'
 alias rm="rm -I --preserve-root"
 alias sha="shasum -a 256"
 alias update="sudo apt update && apt list --upgradable && sudo apt upgrade && snap refresh && flatpak update"

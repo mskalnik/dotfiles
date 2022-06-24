@@ -1,4 +1,3 @@
-# File navigation
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -57,6 +56,6 @@ alias pls='sudo $(history -p !!)'
 alias rm="rm -I --preserve-root"
 alias sha="shasum -a 256"
 alias untar="tar -zxvf"
-alias update="sudo apt update && apt list --upgradable && sudo apt upgrade && snap refresh && flatpak update"
+alias update="sudo apt update && sudo apt upgrade && snap refresh && flatpak update"
 alias userlist="cut -d: -f1 /etc/passwd"
 alias v="vim"

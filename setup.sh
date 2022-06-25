@@ -1,13 +1,11 @@
 #!/bin/bash
 
-# refactor needed
 install_pacman() {
     while read line; do
         sudo pacman -S -y $line
     done < ".config/qtile/resources/pacman.list"
 }
 
-# refactor needed
 install_flatpak() {
     while read line; do
         flatpak install -y flathub $line
@@ -24,17 +22,11 @@ configure_dotfiles() {
     dotfiles config --local status.showUntrackedFiles no
 }
 
-configure_ssh() {
-    eval $(ssh-agent)
-    ssh-add
-}
-
 init() {
     install_pacman
     install_flatpak
     install_doom_emacs
     configure_dotfiles
-    configure_ssh
 }
 
 init

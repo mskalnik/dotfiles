@@ -16,6 +16,7 @@
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.saturation": 1,
     "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.shellIntegration.enabled": true,
     "window.dialogStyle": "custom",
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "GitHub Dark Default",
@@ -23,5 +24,5 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.preferredDarkColorTheme": "GitHub Dark Default",
     "workbench.preferredHighContrastLightColorTheme": "GitHub Dark Default",
-    "workbench.preferredLightColorTheme": "GitHub Dark Default"
+    "workbench.preferredLightColorTheme": "GitHub Dark Default",
 }

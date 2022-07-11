@@ -12,6 +12,12 @@ install_flatpak() {
     done < ".config/qtile/resources/flatpak.list"
 }
 
+install_snap() {
+    while read line; do
+        snap install -y $line
+    done < ".config/qtile/resources/flatpak.list"
+}
+
 install_doom_emacs() {
     git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d
     ~/.emacs.d/bin/doom install
@@ -24,6 +30,7 @@ configure_dotfiles() {
 
 init() {
     install_pacman
+    install_flatpak
     install_flatpak
     install_doom_emacs
     configure_dotfiles

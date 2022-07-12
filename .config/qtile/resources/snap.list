@@ -1,9 +1,8 @@
-android-studio
+android-studio --classic
 bitwarden
-bitwarden
-code
+code --classic
 discord
 firefox
-intellij-idea-community
+intellij-idea-community --classic
 spotify
 thunderbird

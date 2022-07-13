@@ -190,6 +190,7 @@ SHELL_PATCH_VERSION="\V"
 SHELL_VERSION="\v"
 TIME_12A="\@"
 TIME_12H="\T"
+TIME_24H="\t"
 USERNAME="\u"
 
 parse_git_branch() {

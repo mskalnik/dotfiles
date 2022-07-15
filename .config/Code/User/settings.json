@@ -14,6 +14,8 @@
     "editor.smoothScrolling": true,
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.codeLens.authors.enabled": true,
     "material-icon-theme.folders.color": "#90a4ae",
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.saturation": 1,

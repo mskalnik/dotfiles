@@ -1,5 +1,6 @@
 {
     "editor.cursorBlinking": "blink",
+    "editor.cursorSmoothCaretAnimation": true,
     "editor.cursorStyle": "block",
     "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
     "editor.fontLigatures": true,
@@ -10,6 +11,7 @@
     "editor.rulers": [
         80
     ],
+    "editor.smoothScrolling": true,
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
     "material-icon-theme.folders.color": "#90a4ae",

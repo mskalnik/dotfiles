@@ -8,4 +8,5 @@ com.github.maoschanz.drawing
 com.visualstudio.code
 org.flameshot.Flameshot
 org.gnome.Builder
+org.gnome.Boxes
 org.mozilla.firefox

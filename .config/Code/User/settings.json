@@ -1,5 +1,6 @@
 {
     "breadcrumbs.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
     "editor.cursorBlinking": "blink",
     "editor.cursorSmoothCaretAnimation": true,
     "editor.cursorStyle": "block",
@@ -12,6 +13,7 @@
     "editor.rulers": [80],
     "editor.smoothScrolling": true,
     "editor.tabSize": 2,
+    "editor.guides.bracketPairs": true,
     "files.insertFinalNewline": true,
     "gitlens.codeLens.enabled": false,
     "gitlens.codeLens.authors.enabled": true,
@@ -26,7 +28,6 @@
     "terminal.integrated.shellIntegration.enabled": true,
     "window.dialogStyle": "custom",
     "window.titleBarStyle": "custom",
-    "window.openInNewWindow": true,
     "workbench.colorTheme": "GitHub Dark Default",
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "material-icon-theme",

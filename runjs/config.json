@@ -1,0 +1,86 @@
+{
+	"autoeval": true,
+	"transpile": true,
+	"showUndefined": false,
+	"loopProtection": true,
+	"lineNumbers": false,
+	"invisibles": false,
+	"matchingLines": true,
+	"activeLine": false,
+	"lineWrap": true,
+	"vimkeys": false,
+	"userId": "b80d3fbb-0ac5-4b4a-b65d-80eea9b22fb6",
+	"fontSize": "14",
+	"font": "DejaVu Sans Mono",
+	"formatOnRun": false,
+	"closeBrackets": true,
+	"width": 1200,
+	"height": 730,
+	"envVars": [],
+	"analytics": true,
+	"prettierConfig": {
+		"printWidth": 80,
+		"tabWidth": 2,
+		"useTabs": false,
+		"semi": true,
+		"singleQuote": false,
+		"quoteProps": "as-needed",
+		"jsxSingleQuote": false,
+		"trailingComma": "es5",
+		"bracketSpacing": true,
+		"bracketSameLine": false,
+		"arrowParens": "always"
+	},
+	"babelPlugins": {
+		"decoratorsPlugin": false,
+		"functionSentPlugin": false,
+		"doExpressionsPlugin": false,
+		"asyncDoExpressionsPlugin": false,
+		"pipelineOperatorPlugin": false,
+		"partialApplicationPlugin": false,
+		"throwExpressionsPlugin": false,
+		"recordAndTuple": false
+	},
+	"babelPresets": {
+		"typeScriptPreset": true,
+		"reactPreset": false,
+		"envPreset": true
+	},
+	"statementResults": true,
+	"tabs": {
+		"a4613dbc-b15f-4bef-ac54-e79304cb4ece": {
+			"saveFilePath": "",
+			"title": "",
+			"arrangement": {
+				"direction": "row",
+				"first": "files",
+				"second": {
+					"direction": "row",
+					"first": "editor",
+					"second": "output",
+					"splitPercentage": 55
+				},
+				"splitPercentage": 0
+			}
+		},
+		"order": [
+			"a4613dbc-b15f-4bef-ac54-e79304cb4ece"
+		],
+		"activeTabID": "a4613dbc-b15f-4bef-ac54-e79304cb4ece"
+	},
+	"tabBarForSingleTab": true,
+	"autocomplete": false,
+	"diagnostics": false,
+	"signatures": false,
+	"hoverInfo": false,
+	"verticalLayout": true,
+	"scrolling": "auto",
+	"confirmClose": false,
+	"systemNode": false,
+	"theme": "dracula",
+	"hasUpdated": false,
+	"currentVersion": "2.4.1",
+	"firstOpen": false,
+	"x": 362,
+	"y": 282
+}

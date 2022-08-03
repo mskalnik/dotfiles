@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 ## Custom config
-# Bash prompt - https://wiki.archlinux.org/title/Bash/Prompt_customization
+# https://wiki.archlinux.org/title/Bash/Prompt_customization
 COLOR_OFF="\[\033[0m\]"
 # Regular Colors
 BLACK="\[\033[0;30m\]"

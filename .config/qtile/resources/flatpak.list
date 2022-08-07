@@ -7,5 +7,6 @@ com.visualstudio.code
 org.flameshot.Flameshot
 org.gnome.Builder
 org.gnome.Boxes
+org.gnome.design.Contrast
 org.mozilla.firefox
 re.sonny.Commit

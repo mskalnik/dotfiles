@@ -28,12 +28,17 @@ configure_dotfiles() {
     dotfiles config --local status.showUntrackedFiles no
 }
 
+configure_commit() {
+    git config --global core.editor "flatpak run --file-forwarding re.sonny.Commit @@"
+}
+
 init() {
     install_pacman
     install_flatpak
     install_flatpak
     install_doom_emacs
     configure_dotfiles
+    configure_commit
 }
 
 init

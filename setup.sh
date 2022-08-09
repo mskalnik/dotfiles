@@ -1,8 +1,8 @@
 #!/bin/bash
 
-install_pacman() {
+install_apt() {
     while read line; do
-        sudo pacman -S -y $line
+        sudo apt install -S -y $line
     done < ".config/qtile/resources/pacman.list"
 }
 
@@ -37,7 +37,7 @@ remove_leftovers() {
 }
 
 init() {
-    install_pacman
+    install_apt
     install_flatpak
     install_flatpak
     install_doom_emacs

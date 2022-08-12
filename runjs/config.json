@@ -3,7 +3,7 @@
 	"transpile": true,
 	"showUndefined": false,
 	"loopProtection": true,
-	"lineNumbers": false,
+	"lineNumbers": true,
 	"invisibles": false,
 	"matchingLines": true,
 	"activeLine": false,
@@ -69,7 +69,7 @@
 		"activeTabID": "a4613dbc-b15f-4bef-ac54-e79304cb4ece"
 	},
 	"tabBarForSingleTab": true,
-	"autocomplete": false,
+	"autocomplete": true,
 	"diagnostics": false,
 	"signatures": false,
 	"hoverInfo": false,

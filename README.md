@@ -12,7 +12,8 @@ Screen 2:
 
 ## Installation
 
-Install and configure `git`. After that go to the home folder and clone the project:
+Install and configure `git`. After that go to the home folder and clone the
+project:
 
 `git clone --bare git@github.com:mskalnik/dotfiles.git $HOME/.dotfiles`
 
@@ -22,17 +23,18 @@ Run `setup.sh`:
 
 ## Software information
 
-| Type                 | Name                                                 |
-|----------------------|------------------------------------------------------|
-| Operating System     | [Arch](https://archlinux.org/)                       |
-| Window Manager       | [Qtile](http://www.qtile.org/)                       |
-| Terminal Emulator    | [Alacritty](https://alacritty.org/)                  |
-| Application Launcher | [Rofi](https://github.com/davatorium/rofi)           |
-| Text Editor          | [Doom Emacs](https://github.com/doomemacs/doomemacs) |
+| Type                 | Name                                                  |
+|----------------------|-------------------------------------------------------|
+| Operating System     | [Arch](https://archlinux.org/)                        |
+| Window Manager       | [Qtile](http://www.qtile.org/)                        |
+| Terminal Emulator    | [Alacritty](https://alacritty.org/)                   |
+| Application Launcher | [Rofi](https://github.com/davatorium/rofi)            |
+| Text Editor          | [Doom Emacs](https://github.com/doomemacs/doomemacs)  |
 
 ## Testing
 
-To test the config install [Xephyr](https://wiki.archlinux.org/title/Xephyr) and run:
+To test the config install [Xephyr](https://wiki.archlinux.org/title/Xephyr) and
+run:
 
 ```
 Xephyr -br -ac -noreset -screen 1280x720 :1 &

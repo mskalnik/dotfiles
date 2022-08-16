@@ -72,6 +72,7 @@ alias most='du -hsx * | sort -rh | head -10'
 alias mount='mount |column -t'
 alias mv='mv -i'
 alias qtilerc='code ~/.config/qtile/'
+alias own="sudo chown -R $USER"
 alias p='pnpm'
 alias pls='sudo $(history -p !!)'
 alias ps='ps -aux'

@@ -35,4 +35,5 @@
     "workbench.preferredDarkColorTheme": "GitHub Dark Default",
     "workbench.preferredHighContrastLightColorTheme": "GitHub Dark Default",
     "workbench.preferredLightColorTheme": "GitHub Dark Default",
+    "workbench.startupEditor": "newUntitledFile",
 }

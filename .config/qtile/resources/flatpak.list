@@ -9,5 +9,6 @@ org.gnome.Builder
 org.gnome.Boxes
 org.gnome.design.Contrast
 org.mozilla.firefox
+org.signal.Signal
 org.telegram.desktop
 re.sonny.Commit

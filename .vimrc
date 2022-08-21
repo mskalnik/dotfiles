@@ -1,4 +1,4 @@
-" vim-bootstrap 2022-08-14 20:36:14
+" vim-bootstrap 2022-08-21 20:16:50
 
 "*****************************************************************************
 "" Vim-Plug core
@@ -13,7 +13,7 @@ endif
 let g:vim_bootstrap_langs = "c,html,javascript,python,rust,scala,typescript"
 let g:vim_bootstrap_editor = "nvim"				" nvim or vim
 let g:vim_bootstrap_theme = "dracula"
-let g:vim_bootstrap_frams = ""
+let g:vim_bootstrap_frams = "svelte,vuejs"
 
 if !filereadable(vimplug_exists)
   if !executable(curl_exists)
@@ -129,9 +129,19 @@ endif
 Plug 'derekwyatt/vim-scala'
 
 
+" svelte
+Plug 'leafOfTree/vim-svelte-plugin'
+
+
 " typescript
 Plug 'leafgarland/typescript-vim'
 Plug 'HerringtonDarkholme/yats.vim'
+
+
+" vuejs
+Plug 'posva/vim-vue'
+Plug 'leafOfTree/vim-vue-plugin'
+
 
 
 "*****************************************************************************
@@ -550,6 +560,17 @@ au FileType rust nmap <leader>gd <Plug>(rust-doc)
 " typescript
 let g:yats_host_keyword = 1
 
+
+
+" svelte
+let g:vim_svelte_plugin_load_full_syntax = 1
+
+
+" vuejs
+" vim vue
+let g:vue_disable_pre_processors=1
+" vim vue plugin
+let g:vim_vue_plugin_load_full_syntax = 1
 
 
 "*****************************************************************************

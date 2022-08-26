@@ -12,6 +12,7 @@
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
     "editor.mouseWheelZoom": false,
+    "editor.renderFinalNewline": true,
     "editor.rulers": [80],
     "editor.smoothScrolling": true,
     "editor.tabSize": 2,

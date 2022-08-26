@@ -29,6 +29,7 @@
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.shellIntegration.enabled": true,
+    "update.mode": "start",
     "window.dialogStyle": "custom",
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "GitHub Dark Default",

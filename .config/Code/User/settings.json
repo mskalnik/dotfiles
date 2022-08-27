@@ -14,6 +14,7 @@
     "editor.mouseWheelZoom": false,
     "editor.renderFinalNewline": true,
     "editor.rulers": [80],
+    "editor.showDeprecated": true,
     "editor.smoothScrolling": true,
     "editor.tabSize": 2,
     "editor.guides.bracketPairs": true,

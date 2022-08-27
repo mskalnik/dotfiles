@@ -1,5 +1,6 @@
 {
     "breadcrumbs.enabled": true,
+    "editor.autoClosingBrackets": "never",
     "editor.bracketPairColorization.enabled": true,
     "editor.cursorBlinking": "blink",
     "editor.cursorSmoothCaretAnimation": true,

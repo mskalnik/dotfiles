@@ -4,6 +4,7 @@ bluez
 bluez-utils
 emacs
 flatpak
+fonts-jetbrains-mono
 git
 htop
 neofetch
@@ -16,6 +17,5 @@ rofi
 slock
 steam
 thunar
-ttf-jetbrains-mono
 unzip
 xorg-server-xephyr

@@ -1,14 +1,15 @@
 ar.xjuan.Cambalache
 com.bitwarden.desktop
 com.discordapp.Discord
+com.getpostman.Postman
 com.github.johnfactotum.Foliate
 com.github.maoschanz.drawing
 com.uploadedlobster.peek
 com.visualstudio.code
+nl.hjdskes.gcolor3
 org.flameshot.Flameshot
-com.getpostman.Postman
-org.gnome.Builder
 org.gnome.Boxes
+org.gnome.Builder
 org.gnome.design.Contrast
 org.mozilla.firefox
 org.signal.Signal

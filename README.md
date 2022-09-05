@@ -25,8 +25,8 @@ Run `setup.sh`:
 
 | Type                 | Name                                                  |
 |----------------------|-------------------------------------------------------|
-| Operating System     | [Arch](https://archlinux.org/)                        |
-| Window Manager       | [Qtile](http://www.qtile.org/)                        |
+| Operating System     | [Ubuntu](https://ubuntu.com/)                         |
+| Desktop Environment  | [Gnome](https://www.gnome.org/)                       |
 | Terminal Emulator    | [Alacritty](https://alacritty.org/)                   |
 | Application Launcher | [Rofi](https://github.com/davatorium/rofi)            |
 | Text Editor          | [Doom Emacs](https://github.com/doomemacs/doomemacs)  |

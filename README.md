@@ -1,15 +1,5 @@
 # Dotfiles
 
-## Screenshot
-
-Screen 1:
-
-![screen 1](./screenshots/screen-1.png)
-
-Screen 2:
-
-![screen 2](./screenshots/screen-2.png)
-
 ## Installation
 
 Install and configure `git`. After that go to the home folder and clone the

@@ -7,12 +7,14 @@ com.github.maoschanz.drawing
 com.google.Chrome
 com.uploadedlobster.peek
 com.usebottles.bottles
+com.github.tchx84.Flatseal
 com.visualstudio.code
 nl.hjdskes.gcolor3
 org.flameshot.Flameshot
 org.gnome.Boxes
 org.gnome.Builder
 org.gnome.design.Contrast
+org.gnome.gitlab.somas.Apostrophe
 org.mozilla.firefox
 org.mozilla.Thunderbird
 org.signal.Signal

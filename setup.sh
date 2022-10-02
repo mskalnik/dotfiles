@@ -32,10 +32,6 @@ configure_commit() {
     git config --global core.editor "flatpak run --file-forwarding re.sonny.Commit @@"
 }
 
-remove_leftovers() {
-    rm LICENSE setup.sh README.md
-}
-
 init() {
     install_apt
     install_flatpak
@@ -43,7 +39,6 @@ init() {
     install_doom_emacs
     configure_dotfiles
     configure_commit
-    remove_leftovers
 }
 
 init

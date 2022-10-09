@@ -12,7 +12,7 @@
     "editor.lineHeight": 22,
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
-    "editor.mouseWheelZoom": false,
+    "editor.mouseWheelZoom": true,
     "editor.renderFinalNewline": true,
     "editor.rulers": [80],
     "editor.showDeprecated": true,

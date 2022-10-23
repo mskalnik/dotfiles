@@ -18,7 +18,7 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 dgroups_key_binder = None
-dgroups_app_rules = []  # type: list
+dgroups_app_rules = []
 follow_mouse_focus = True
 bring_front_click = False
 cursor_warp = False
@@ -32,7 +32,7 @@ floating_layout = layout.Floating(
 		Match(wm_class="ssh-askpass"), # ssh-askpass
 		Match(title="branchdialog"), # gitk
 		Match(title="pinentry"), # GPG key password entry
-		Match(wm_class="copyq"), # CopyQ
+		Match(wm_class="copyq"),
 		Match(wm_class="steam"),
 	]
 )

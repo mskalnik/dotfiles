@@ -14,8 +14,8 @@
 	"font": "JetBrains Mono",
 	"formatOnRun": false,
 	"closeBrackets": true,
-	"width": 1200,
-	"height": 730,
+	"width": 1920,
+	"height": 1080,
 	"envVars": [],
 	"analytics": false,
 	"prettierConfig": {

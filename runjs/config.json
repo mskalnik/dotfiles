@@ -75,7 +75,7 @@
 	"hoverInfo": true,
 	"verticalLayout": true,
 	"scrolling": "auto",
-	"confirmClose": false,
+	"confirmClose": true,
 	"systemNode": false,
 	"theme": "dracula",
 	"hasUpdated": false,

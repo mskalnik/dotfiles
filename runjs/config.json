@@ -12,7 +12,7 @@
 	"userId": "b80d3fbb-0ac5-4b4a-b65d-80eea9b22fb6",
 	"fontSize": "14",
 	"font": "JetBrains Mono",
-	"formatOnRun": false,
+	"formatOnRun": true,
 	"closeBrackets": true,
 	"width": 1920,
 	"height": 1080,
@@ -80,7 +80,7 @@
 	"theme": "dracula",
 	"hasUpdated": false,
 	"currentVersion": "2.4.1",
-	"firstOpen": true,
+	"firstOpen": false,
 	"x": 362,
 	"y": 282
 }

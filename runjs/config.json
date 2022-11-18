@@ -43,7 +43,7 @@
 	},
 	"babelPresets": {
 		"typeScriptPreset": true,
-		"reactPreset": false,
+		"reactPreset": true,
 		"envPreset": true
 	},
 	"statementResults": true,

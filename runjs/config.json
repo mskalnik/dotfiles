@@ -28,7 +28,7 @@
 		"jsxSingleQuote": true,
 		"trailingComma": "es6",
 		"bracketSpacing": true,
-		"bracketSameLine": false,
+		"bracketSameLine": true,
 		"arrowParens": "always"
 	},
 	"babelPlugins": {

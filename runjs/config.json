@@ -7,7 +7,7 @@
 	"invisibles": false,
 	"matchingLines": true,
 	"activeLine": false,
-	"lineWrap": false,
+	"lineWrap": true,
 	"vimkeys": false,
 	"userId": "b80d3fbb-0ac5-4b4a-b65d-80eea9b22fb6",
 	"fontSize": "14",

@@ -8,7 +8,7 @@
 	"matchingLines": true,
 	"activeLine": false,
 	"lineWrap": true,
-	"vimkeys": false,
+	"vimkeys": true,
 	"userId": "b80d3fbb-0ac5-4b4a-b65d-80eea9b22fb6",
 	"fontSize": "14",
 	"font": "JetBrains Mono",

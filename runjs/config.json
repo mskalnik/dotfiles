@@ -12,7 +12,7 @@
 	"userId": "b80d3fbb-0ac5-4b4a-b65d-80eea9b22fb6",
 	"fontSize": "14",
 	"font": "JetBrains Mono",
-	"formatOnRun": true,
+	"formatOnRun": false,
 	"closeBrackets": true,
 	"width": 1920,
 	"height": 1080,

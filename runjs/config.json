@@ -38,7 +38,7 @@
 		"asyncDoExpressionsPlugin": false,
 		"pipelineOperatorPlugin": false,
 		"partialApplicationPlugin": false,
-		"throwExpressionsPlugin": false,
+		"throwExpressionsPlugin": true,
 		"recordAndTuple": false
 	},
 	"babelPresets": {

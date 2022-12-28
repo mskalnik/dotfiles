@@ -3,7 +3,6 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
-
 alias bashrc='source ~/.bashrc'
 alias cat='batcat'
 alias cb='cargo build'

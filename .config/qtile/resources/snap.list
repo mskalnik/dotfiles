@@ -2,5 +2,6 @@ android-studio --classic
 code --classic
 datagrip --classic
 goland --classic
-intellij-idea-community --classic
+intellij-idea-ultimate --classic
+pycharm-professional --classic
 webstorm --classic

@@ -1,4 +1,6 @@
-# Dotfiles
+# Legacy dotfiles
+
+_Note: This is no longer maintained_
 
 ## Installation
 

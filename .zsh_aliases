@@ -57,7 +57,6 @@ alias mount='mount |column -t'
 alias mv='mv -i'
 alias ohmyzsh="code ~/.oh-my-zsh"
 alias own='sudo chown -R $USER'
-alias p='pnpm'
 alias please='sudo $(history -p !!)'
 alias ports='netstat -tulanp'
 alias ps='ps -aux'

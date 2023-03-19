@@ -1,19 +1,24 @@
+# cd
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
-alias 'drm!'='docker container rm -f'
-alias cb='cargo build'
+# custom cd
 alias cdp='cd ~/projects'
 alias cdp='cd ~/prt'
 alias cdw='cd ~/work'
+# safety override
 alias chgrp='chgrp --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chown='chown --preserve-root'
 alias cp='cp -i'
+# cargo
+alias cb='cargo build'
 alias cr='cargo run'
 alias ct='cargo test'
+# docker
+alias 'drm!'='docker container rm -f'
 alias dbl='docker build'
 alias dcin='docker container inspect'
 alias dcls='docker container ls'
@@ -49,6 +54,7 @@ alias dvprune='docker volume prune'
 alias dxc='docker container exec'
 alias dxcit='docker container exec -it'
 alias f='find . |grep '
+# git
 alias ga='git add'
 alias gb='git branch'
 alias gbD='git branch -D'
@@ -78,6 +84,7 @@ alias grh='git reset --hard'
 alias gst='git status'
 alias gstaa='git stash apply'
 alias gstall='git stash'
+# ls override
 alias la='ls -lisa --color=auto -a'
 alias ll='ls -lisa --color=auto'
 alias ln='ln -i'

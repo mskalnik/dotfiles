@@ -6,7 +6,6 @@ alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 # custom cd
 alias cdp='cd ~/projects'
-alias cdp='cd ~/prt'
 alias cdw='cd ~/work'
 # safety override
 alias chgrp='chgrp --preserve-root'

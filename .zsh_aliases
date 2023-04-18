@@ -97,6 +97,7 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 alias own='sudo chown -R $USER'
 alias please='sudo $(history -p !!)'
 alias ps='ps -aux'
+alias reload="exec ${SHELL} -l"
 alias rm='rm -I --preserve-root'
 alias rmf='rm -rf'
 alias sha='shasum -a 256'

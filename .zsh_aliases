@@ -4,18 +4,22 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
+
 # custom cd
 alias cdp='cd ~/projects'
 alias cdw='cd ~/work'
+
 # safety override
 alias chgrp='chgrp --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chown='chown --preserve-root'
 alias cp='cp -i'
+
 # cargo
 alias cb='cargo build'
 alias cr='cargo run'
 alias ct='cargo test'
+
 # docker
 alias 'drm!'='docker container rm -f'
 alias dbl='docker build'
@@ -83,11 +87,13 @@ alias grh='git reset --hard'
 alias gst='git status'
 alias gstaa='git stash apply'
 alias gstall='git stash'
+
 # ls override
 alias la='ls -lisa --color=auto -a'
 alias ll='ls -lisa --color=auto'
 alias ln='ln -i'
 alias lt='ls --human-readable --size -1 -S --classify'
+
 # mkdir override
 alias mkdir='mkdir -pv'
 alias most='du -hsx * | sort -rh | head -10'
@@ -106,3 +112,7 @@ alias untar='tar -zxvf'
 alias v='vim'
 alias weather='curl wttr.in/Zagreb'
 alias zshconf="code ~/.zshrc"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"

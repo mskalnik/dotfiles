@@ -21,7 +21,6 @@ alias cr='cargo run'
 alias ct='cargo test'
 
 # docker
-alias 'drm!'='docker container rm -f'
 alias dbl='docker build'
 alias dcin='docker container inspect'
 alias dcls='docker container ls'

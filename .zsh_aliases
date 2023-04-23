@@ -6,6 +6,7 @@ alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 
 # custom cd
+alias cdd='cd ~/Documents'
 alias cdp='cd ~/projects'
 alias cdw='cd ~/work'
 

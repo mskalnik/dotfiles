@@ -57,6 +57,7 @@ alias dvprune='docker volume prune'
 alias dxc='docker container exec'
 alias dxcit='docker container exec -it'
 alias f='find . |grep '
+
 # git
 alias ga='git add'
 alias gb='git branch'
@@ -106,8 +107,11 @@ alias own='sudo chown -R $USER'
 alias please='sudo $(history -p !!)'
 alias ps='ps -aux'
 alias reload="exec ${SHELL} -l"
+
+# rm override
 alias rm='rm -I --preserve-root'
 alias rmf='rm -rf'
+
 alias sha='shasum -a 256'
 alias tarup='tar czvf'
 alias untar='tar -zxvf'

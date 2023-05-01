@@ -122,6 +122,7 @@ alias reload="exec ${SHELL} -l"
 alias rm='rm -I --preserve-root'
 alias rmf='rm -rf'
 
+alias ping='ping -c 5'
 alias sha='shasum -a 256'
 alias tarup='tar czvf'
 alias untar='tar -zxvf'

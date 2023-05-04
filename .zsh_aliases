@@ -19,6 +19,7 @@ alias cwr='cargo watch -x run'
 alias cdd='cd ~/Documents'
 alias cdp='cd ~/projects'
 alias cdw='cd ~/work'
+alias dl='cd ~/Downloads'
 
 # safety override
 alias chgrp='chgrp --preserve-root'

@@ -122,6 +122,7 @@ alias reload="exec ${SHELL} -l"
 alias rm='rm -I --preserve-root'
 alias rmf='rm -rf'
 
+alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias count='find . -type f | wc -l'
 alias localip="ipconfig getifaddr en0"
 alias ping='ping -c 5'

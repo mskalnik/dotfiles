@@ -114,7 +114,6 @@ alias most='du -hsx * | sort -rh | head -10'
 alias mount='mount |column -t'
 alias mv='mv -i'
 alias own='sudo chown -R $USER'
-alias please='sudo $(history -p !!)'
 alias ps='ps -aux'
 alias reload="exec ${SHELL} -l"
 

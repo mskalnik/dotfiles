@@ -121,6 +121,7 @@ alias reload="exec ${SHELL} -l"
 alias rm='rm -I --preserve-root'
 alias rmf='rm -rf'
 
+alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias count='find . -type f | wc -l'
 alias localip="ipconfig getifaddr en0"

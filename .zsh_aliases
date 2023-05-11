@@ -121,17 +121,20 @@ alias reload="exec ${SHELL} -l"
 alias rm='rm -I --preserve-root'
 alias rmf='rm -rf'
 
+# random
 alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias count='find . -type f | wc -l'
-alias localip="ipconfig getifaddr en0"
+alias localip='ipconfig getifaddr en0'
 alias ping='ping -c 5'
 alias sha='shasum -a 256'
+
+# tar aliases
 alias tarup='tar czvf'
 alias untar='tar -zxvf'
-alias v='vim'
+
+# weather
 alias weather='curl wttr.in/Zagreb'
-alias zshconf="code ~/.zshrc"
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"

@@ -126,7 +126,6 @@ alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias count='find . -type f | wc -l'
 alias localip='ipconfig getifaddr en0'
-alias ping='ping -c 5'
 alias sha='shasum -a 256'
 
 # tar aliases

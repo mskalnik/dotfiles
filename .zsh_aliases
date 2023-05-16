@@ -26,6 +26,9 @@ alias chgrp='chgrp --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chown='chown --preserve-root'
 alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -I --preserve-root'
+alias rmf='rm -rf'
 
 # cargo
 alias cb='cargo build'
@@ -108,27 +111,6 @@ alias ll='ls -lisa --color=auto'
 alias ln='ln -i'
 alias lt='ls --human-readable --size -1 -S --classify'
 
-# mkdir override
-alias mkdir='mkdir -pv'
-alias most='du -hsx * | sort -rh | head -10'
-alias mount='mount |column -t'
-alias mv='mv -i'
-alias own='sudo chown -R $USER'
-alias ps='ps -aux'
-alias reload="exec ${SHELL} -l"
-
-# rm override
-alias rm='rm -I --preserve-root'
-alias rmf='rm -rf'
-
-# random
-alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
-alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
-alias count='find . -type f | wc -l'
-alias localip='ipconfig getifaddr en0'
-alias path='echo -e ${PATH//:/\\n}'
-alias sha='shasum -a 256'
-
 # tar aliases
 alias tarup='tar czvf'
 alias untar='tar -zxvf'
@@ -139,3 +121,17 @@ alias weather='curl wttr.in/Zagreb'
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# other
+alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
+alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+alias count='find . -type f | wc -l'
+alias localip='ipconfig getifaddr en0'
+alias mkdir='mkdir -pv'
+alias most='du -hsx * | sort -rh | head -10'
+alias mount='mount |column -t'
+alias own='sudo chown -R $USER'
+alias path='echo -e ${PATH//:/\\n}'
+alias ps='ps -aux'
+alias reload='exec ${SHELL} -l'
+alias sha='shasum -a 256'

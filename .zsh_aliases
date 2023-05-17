@@ -4,6 +4,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
+alias -='cd -'
 
 # cargo
 alias cb='cargo build'

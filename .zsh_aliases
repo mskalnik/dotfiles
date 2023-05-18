@@ -112,6 +112,24 @@ alias ll='ls -lisa --color=auto'
 alias ln='ln -i'
 alias lt='ls --human-readable --size -1 -S --classify'
 
+# kubernetes
+alias k='kubectl'
+alias ka='kubectl apply -f'
+alias kpa='kubectl patch -f'
+alias ked='kubectl edit'
+alias ksc='kubectl scale'
+alias kex='kubectl exec -i -t'
+alias kg='kubectl get'
+alias kga='kubectl get all'
+alias kgall='kubectl get all --all-namespaces'
+alias kinfo='kubectl cluster-info'
+alias kdesc='kubectl describe'
+alias ktp='kubectl top'
+alias klo='kubectl logs -f'
+alias kn='kubectl get nodes'
+alias kpv='kubectl get pv'
+alias kpvc='kubectl get pvc'
+
 # tar aliases
 alias tarup='tar czvf'
 alias untar='tar -zxvf'
@@ -120,8 +138,8 @@ alias untar='tar -zxvf'
 alias weather='curl wttr.in/Zagreb'
 
 # Show/hide hidden files in Finder
-alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+alias show='defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder'
+alias hide='defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder'
 
 # other
 alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'

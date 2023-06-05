@@ -77,7 +77,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(1password brew colored-man-pages docker dotnet git iterm2 macos npm nvm rust scala yarn)
+plugins=(1password brew colored-man-pages docker dotnet git iterm2 macos nvm rust scala yarn)
 
 source $ZSH/oh-my-zsh.sh
 

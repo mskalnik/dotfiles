@@ -82,6 +82,7 @@ plugins=(
   brew
   colored-man-pages
   docker
+  docker-compose
   dotnet
   git
   macos

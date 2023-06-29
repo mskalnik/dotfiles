@@ -91,6 +91,7 @@ plugins=(
   pip
   python
   rust
+  salt
   scala
   yarn
 )

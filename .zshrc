@@ -87,6 +87,7 @@ plugins=(
   dotnet
   git
   macos
+  iterm2
   nvm
   pip
   python

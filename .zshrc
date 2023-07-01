@@ -94,6 +94,7 @@ plugins=(
   rust
   salt
   scala
+  xcode
   yarn
 )
 

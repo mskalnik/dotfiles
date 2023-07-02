@@ -81,6 +81,7 @@ plugins=(
   1password
   brew
   colored-man-pages
+  colorize
   command-not-found
   docker
   docker-compose

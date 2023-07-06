@@ -92,6 +92,7 @@ plugins=(
   iterm2
   nvm
   pip
+  pylint
   python
   rust
   salt

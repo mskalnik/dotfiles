@@ -86,6 +86,7 @@ plugins=(
   command-not-found
   docker
   docker-compose
+  dotenv
   dotnet
   git
   macos

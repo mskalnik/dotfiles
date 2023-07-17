@@ -89,8 +89,9 @@ plugins=(
   dotenv
   dotnet
   git
-  macos
+  gradle
   iterm2
+  macos
   nvm
   pip
   pylint

@@ -97,7 +97,6 @@ plugins=(
   pylint
   python
   rust
-  salt
   scala
   xcode
   yarn

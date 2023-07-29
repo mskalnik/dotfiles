@@ -1,4 +1,4 @@
-# cd
+# Cd
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -26,6 +26,7 @@ alias chgrp='chgrp --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chown='chown --preserve-root'
 alias cp='cp -i'
+alias mkdir='mkdir -pv'
 alias mv='mv -i'
 alias rm='rm -I --preserve-root'
 alias rmf='rm -rf'
@@ -133,7 +134,7 @@ alias untar='tar -zxvf'
 # weather
 alias weather='curl wttr.in/Zagreb'
 
-# Show/hide hidden files in Finder
+# show/hide hidden files in finder
 alias show='defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder'
 alias hide='defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder'
 
@@ -145,7 +146,6 @@ alias doom='~/.emacs.d/bin/doom'
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias f='find . |grep '
 alias localip='ipconfig getifaddr en0'
-alias mkdir='mkdir -pv'
 alias most='du -hsx * | sort -rh | head -10'
 alias mount='mount |column -t'
 alias own='sudo chown -R $USER'

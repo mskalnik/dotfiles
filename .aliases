@@ -1,4 +1,4 @@
-# Cd
+# cd
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -95,9 +95,6 @@ alias gpr='git pull --rebase'
 alias grb='git rebase'
 alias grba='git rebase --abort'
 alias grbc='git rebase --continue'
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
 alias grh='git reset --hard'
 alias gst='git status'
 alias gstaa='git stash apply'
@@ -112,24 +109,29 @@ alias lt='ls --human-readable --size -1 -S --classify'
 # kubernetes
 alias k='kubectl'
 alias ka='kubectl apply -f'
-alias kpa='kubectl patch -f'
+alias kdesc='kubectl describe'
 alias ked='kubectl edit'
-alias ksc='kubectl scale'
 alias kex='kubectl exec -i -t'
 alias kg='kubectl get'
 alias kga='kubectl get all'
 alias kgall='kubectl get all --all-namespaces'
 alias kinfo='kubectl cluster-info'
-alias kdesc='kubectl describe'
-alias ktp='kubectl top'
 alias klo='kubectl logs -f'
 alias kn='kubectl get nodes'
+alias kpa='kubectl patch -f'
 alias kpv='kubectl get pv'
 alias kpvc='kubectl get pvc'
+alias ksc='kubectl scale'
+alias ktp='kubectl top'
 
 # tar aliases
 alias tarup='tar czvf'
 alias untar='tar -zxvf'
+
+# grep aliases
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
 
 # weather
 alias weather='curl wttr.in/Zagreb'

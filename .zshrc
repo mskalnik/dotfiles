@@ -98,6 +98,7 @@ plugins=(
   python
   rust
   scala
+  suse
   xcode
   yarn
 )

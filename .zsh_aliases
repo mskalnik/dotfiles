@@ -144,7 +144,6 @@ alias hide='defaults write com.apple.finder AppleShowAllFiles -bool false && kil
 alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias count='find . -type f | wc -l'
-alias doom='~/.emacs.d/bin/doom'
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias f='find . |grep '
 alias flush='dscacheutil -flushcache && killall -HUP mDNSResponder'

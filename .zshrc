@@ -99,7 +99,6 @@ plugins=(
   rust
   scala
   suse
-  xcode
   yarn
 )
 

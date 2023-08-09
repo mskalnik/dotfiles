@@ -90,7 +90,6 @@ plugins=(
   dotnet
   git
   gradle
-  iterm2
   macos
   nvm
   pip

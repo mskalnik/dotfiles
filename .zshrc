@@ -89,7 +89,6 @@ plugins=(
   dotenv
   dotnet
   git
-  gradle
   macos
   nvm
   pip

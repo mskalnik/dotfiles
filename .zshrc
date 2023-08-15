@@ -80,6 +80,7 @@ HIST_STAMPS="yyyy-mm-dd"
 plugins=(
   1password
   adb
+  autojump
   brew
   colored-man-pages
   colorize

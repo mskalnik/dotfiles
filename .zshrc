@@ -83,7 +83,6 @@ plugins=(
   autojump
   brew
   colored-man-pages
-  colorize
   command-not-found
   docker
   docker-compose

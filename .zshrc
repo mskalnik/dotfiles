@@ -81,6 +81,7 @@ plugins=(
   1password
   adb
   autojump
+  battery
   brew
   colored-man-pages
   command-not-found

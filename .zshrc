@@ -83,6 +83,7 @@ plugins=(
   autojump
   battery
   brew
+  colemak
   colored-man-pages
   command-not-found
   docker

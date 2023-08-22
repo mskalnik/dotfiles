@@ -86,6 +86,7 @@ plugins=(
   colemak
   colored-man-pages
   command-not-found
+  common-aliases
   docker
   docker-compose
   dotnet

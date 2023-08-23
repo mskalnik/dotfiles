@@ -87,6 +87,7 @@ plugins=(
   colored-man-pages
   command-not-found
   common-aliases
+  copypath
   docker
   docker-compose
   dotnet

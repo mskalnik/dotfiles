@@ -86,6 +86,7 @@ plugins=(
   colored-man-pages
   command-not-found
   common-aliases
+  copyfile
   copypath
   docker
   docker-compose

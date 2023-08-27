@@ -79,8 +79,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   1password
-  autojump
-  battery
+  autojumps
   brew
   colemak
   colored-man-pages

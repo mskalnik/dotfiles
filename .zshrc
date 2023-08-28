@@ -87,6 +87,7 @@ plugins=(
   common-aliases
   copyfile
   copypath
+  cp
   docker
   docker-compose
   dotnet

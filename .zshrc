@@ -91,6 +91,7 @@ plugins=(
   docker
   docker-compose
   dotnet
+  frontend-search
   git
   macos
   nvm

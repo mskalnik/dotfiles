@@ -99,6 +99,7 @@ plugins=(
   rust
   scala
   suse
+  vscode
   yarn
 )
 

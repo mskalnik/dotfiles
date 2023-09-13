@@ -1,9 +1,12 @@
 setup_ohmyzsh() {
+    echo "-[START] Setting up oh my zsh"
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     chsh -s /opt/homebrew/bin/zsh
+    echo "-[FINISH] Setting up oh my zsh"
 }
 
 backup_dotfiles() {
+    echo "-[START] Backing up dotfiles"
     DOTFILES_DIR="$HOME/dotfiles"
     BACKUP_DIR="$HOME/dotfiles_backup_$(date +'%Y%m%d%H%M%S')"
     mkdir -p "$BACKUP_DIR"
@@ -14,13 +17,14 @@ backup_dotfiles() {
             echo "Backed up $dotfile to $BACKUP_DIR"
         fi
     done
+    echo "-[FINISH] Backing up dotfiles"
 }
 
 main() {
-    echo "Installing dotfiles..."
+    echo "[START] Installing dotfiles"
     backup_dotfiles
     setup_ohmyzsh
-    echo "Dotfiles installation complete!"
+    echo "[FINISH] Installing dotfiles"
 }
 
 main

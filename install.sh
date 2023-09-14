@@ -5,6 +5,12 @@ setup_ohmyzsh() {
     echo "-[FINISH] Setting up oh my zsh"
 }
 
+install_packages() {
+    echo "-[START] Installing packages"
+    brew install -y cairo openjdk sbt
+    echo "-[FINISH] Installing packages"
+}
+
 backup_dotfiles() {
     echo "-[START] Backing up dotfiles"
     DOTFILES_DIR="$HOME/dotfiles"
@@ -23,6 +29,7 @@ backup_dotfiles() {
 main() {
     echo "[START] Installing dotfiles"
     backup_dotfiles
+    install_packages
     setup_ohmyzsh
     echo "[FINISH] Installing dotfiles"
 }

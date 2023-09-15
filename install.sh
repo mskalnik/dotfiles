@@ -1,16 +1,3 @@
-setup_ohmyzsh() {
-    echo "-[START] Setting up oh my zsh"
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    chsh -s /opt/homebrew/bin/zsh
-    echo "-[FINISH] Setting up oh my zsh"
-}
-
-install_packages() {
-    echo "-[START] Installing packages"
-    brew install -y cairo openjdk sbt
-    echo "-[FINISH] Installing packages"
-}
-
 backup_dotfiles() {
     echo "-[START] Backing up dotfiles"
     DOTFILES_DIR="$HOME/dotfiles"
@@ -24,6 +11,19 @@ backup_dotfiles() {
         fi
     done
     echo "-[FINISH] Backing up dotfiles"
+}
+
+install_packages() {
+    echo "-[START] Installing packages"
+    brew install -y cairo openjdk sbt
+    echo "-[FINISH] Installing packages"
+}
+
+setup_ohmyzsh() {
+    echo "-[START] Setting up oh my zsh"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    chsh -s /opt/homebrew/bin/zsh
+    echo "-[FINISH] Setting up oh my zsh"
 }
 
 main() {

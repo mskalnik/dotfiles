@@ -99,7 +99,6 @@ plugins=(
   rust
   scala
   screen
-  sublime
   suse
   vscode
   yarn

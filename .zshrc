@@ -100,7 +100,6 @@ plugins=(
   scala
   screen
   suse
-  vscode
   yarn
 )
 

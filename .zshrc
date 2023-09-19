@@ -94,6 +94,7 @@ plugins=(
   macos
   nvm
   pip
+  postgres
   pylint
   python
   rust

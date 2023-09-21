@@ -101,6 +101,7 @@ plugins=(
   scala
   screen
   suse
+  web-search
   yarn
 )
 

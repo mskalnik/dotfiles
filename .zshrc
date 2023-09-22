@@ -98,6 +98,7 @@ plugins=(
   pylint
   python
   rust
+  sbt
   scala
   screen
   suse

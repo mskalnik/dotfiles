@@ -102,6 +102,7 @@ plugins=(
   scala
   screen
   suse
+  systemd
   web-search
   yarn
 )

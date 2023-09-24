@@ -103,6 +103,7 @@ plugins=(
   screen
   suse
   systemd
+  tmux
   web-search
   yarn
 )

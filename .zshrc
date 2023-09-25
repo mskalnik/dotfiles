@@ -92,6 +92,7 @@ plugins=(
   dotnet
   git
   macos
+  npm
   nvm
   pip
   postgres

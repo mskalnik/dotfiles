@@ -91,6 +91,7 @@ plugins=(
   docker-compose
   dotnet
   git
+  git-extras
   macos
   npm
   nvm

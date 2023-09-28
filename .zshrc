@@ -92,6 +92,7 @@ plugins=(
   dotnet
   git
   git-extras
+  github
   macos
   npm
   nvm

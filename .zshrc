@@ -93,6 +93,7 @@ plugins=(
   git
   git-extras
   github
+  gitignore
   macos
   npm
   nvm

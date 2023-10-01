@@ -106,7 +106,6 @@ plugins=(
   scala
   screen
   suse
-  systemd
   tmux
   web-search
   yarn

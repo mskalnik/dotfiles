@@ -88,7 +88,6 @@ plugins=(
   copyfile
   copypath
   docker
-  docker-compose
   dotnet
   git
   git-extras

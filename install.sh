@@ -1,3 +1,5 @@
+#!/bin/bash
+
 backup_dotfiles() {
     echo "-[START] Backing up dotfiles"
     DOTFILES_DIR="$HOME/dotfiles"

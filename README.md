@@ -1,12 +1,14 @@
 # Dotfiles
 
-This repository contains my personal dotfiles and configuration files for macOS. These dotfiles help me customize and streamline my macOS environment to suit my preferences and workflow
+This repository contains my personal dotfiles and configuration files for macOS. These dotfiles help me customize and
+streamline my macOS environment to suit my preferences and workflow
 
 ## Getting Started
 
 Before using these dotfiles, please make sure you have the following prerequisites installed on your macOS system:
 
-1. **Homebrew**: If you haven't already installed Homebrew, you can do so by running the following command in your terminal:
+1. **Homebrew**: If you haven't already installed Homebrew, you can do so by running the following command in your
+terminal:
 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -40,4 +42,5 @@ cd ~/dotfiles
 ./install.sh
 ```
 
-The installation script will create symbolic links for the configuration files in your home directory, pointing to the corresponding files in the dotfiles repository.
+The installation script will create symbolic links for the configuration files in your home directory, pointing to the
+corresponding files in the dotfiles repository.

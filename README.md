@@ -44,3 +44,6 @@ cd ~/dotfiles
 
 The installation script will create symbolic links for the configuration files in your home directory, pointing to the
 corresponding files in the dotfiles repository.
+
+Feel free to explore and modify these dotfiles to better suit your own needs and preferences. Keep in mind that these configurations are tailored to my specific setup, and while they can serve as a great starting point for your
+customization journey, your unique requirements might differ. If you encounter any issues or have suggestions for improvements, don't hesitate to contribute or reach out.

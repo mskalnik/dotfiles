@@ -141,13 +141,9 @@ alias weather='curl wttr.in/Zagreb'
 alias hide='defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder'
 alias show='defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder'
 
-# other
-alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
-alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+# util
 alias count='find . -type f | wc -l'
-alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias f='find . |grep '
-alias localip='ipconfig getifaddr en0'
 alias most='du -hsx * | sort -rh | head -10'
 alias mount='mount |column -t'
 alias own='sudo chown -R $USER'
@@ -155,3 +151,11 @@ alias path='echo -e ${PATH//:/\\n}'
 alias reload='exec ${SHELL} -l'
 alias sha='shasum -a 256'
 alias week='date +%V'
+
+# macos
+alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
+alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+alias localip='ipconfig getifaddr en0'
+
+# other
+alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

@@ -154,7 +154,7 @@ alias path='echo -e ${PATH//:/\\n}'
 alias ports='sudo lsof -i -P | grep LISTEN'
 alias reload='exec ${SHELL} -l'
 alias sha='shasum -a 256'
-alias timestamp='date +%Y-%m-%d_%H-%M-%S'
+alias timestamp='date +%Y-%m-%dT%H-%M-%S'
 alias week='date +%V'
 
 # macos

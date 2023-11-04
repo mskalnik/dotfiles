@@ -147,6 +147,7 @@ alias pkill='kill -9'
 
 # util
 alias count='find . -type f | wc -l'
+alias cpwd='pwd | tr -d "\n" | pbcopy'
 alias df='df -H'
 alias du='du -ch'
 alias f='find . |grep '

@@ -145,19 +145,31 @@ alias show='defaults write com.apple.finder AppleShowAllFiles -bool true && kill
 alias psg='ps aux | grep'
 alias pkill='kill -9'
 
-# util
+# file management
 alias count='find . -type f | wc -l'
+alias f='find . | grep '
+alias most='du -hsx * | sort -rh | head -10'
+
+# directory management
 alias cpwd='pwd | tr -d "\n" | pbcopy'
+
+# disk management
 alias df='df -H'
 alias du='du -ch'
-alias f='find . |grep '
-alias most='du -hsx * | sort -rh | head -10'
-alias mount='mount |column -t'
+alias mnt='mount | column -t'
+
+# user and permissions
 alias own='sudo chown -R $USER'
+
+# system and environment
 alias path='echo -e ${PATH//:/\\n}'
 alias ports='sudo lsof -i -P | grep LISTEN'
 alias reload='exec ${SHELL} -l'
+
+# security and hashing
 alias sha='shasum -a 256'
+
+# date and time
 alias timestamp='date +%Y-%m-%dT%H-%M-%S'
 alias week='date +%V'
 

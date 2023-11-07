@@ -1,4 +1,4 @@
-# cd
+# Change directory
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -6,7 +6,7 @@ alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 alias .......='cd ../../../../../..'
 
-# cargo
+# Cargo commands
 alias cb='cargo build'
 alias cch='cargo check'
 alias cf='cargo fmt -v'
@@ -16,13 +16,13 @@ alias ct='cargo test'
 alias cw='cargo watch'
 alias cwr='cargo watch -x run'
 
-# custom cd
+# Change directory overrides
 alias cdd='cd ~/Documents'
 alias cdp='cd ~/projects'
 alias cdw='cd ~/work'
 alias dl='cd ~/Downloads'
 
-# safety override
+# Safety override
 alias chgrp='chgrp --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chown='chown --preserve-root'
@@ -32,12 +32,7 @@ alias mv='mv -i'
 alias rm='rm -I --preserve-root'
 alias rmf='rm -rf'
 
-# cargo
-alias cb='cargo build'
-alias cr='cargo run'
-alias ct='cargo test'
-
-# docker
+# Docker aliases
 alias dbl='docker build'
 alias dcin='docker container inspect'
 alias dcls='docker container ls'
@@ -71,7 +66,7 @@ alias dvprune='docker volume prune'
 alias dxc='docker container exec'
 alias dxcit='docker container exec -it'
 
-# git
+# Git aliases
 alias ga='git add'
 alias gb='git branch'
 alias gbD='git branch -D'
@@ -101,13 +96,13 @@ alias gst='git status'
 alias gstaa='git stash apply'
 alias gstall='git stash'
 
-# ls override
+# List overrides
 alias la='ls -lisa --color=auto -a'
 alias ll='ls -lisa --color=auto'
 alias ln='ln -i'
 alias lt='ls --human-readable --size -1 -S --classify'
 
-# kubernetes
+# Kubernetes aliases
 alias k='kubectl'
 alias ka='kubectl apply -f'
 alias kdesc='kubectl describe'
@@ -125,58 +120,58 @@ alias kpvc='kubectl get pvc'
 alias ksc='kubectl scale'
 alias ktp='kubectl top'
 
-# tar aliases
+# Tar aliases
 alias tarup='tar czvf'
 alias untar='tar -zxvf'
 
-# grep aliases
+# Grep aliases
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias grep='grep --color=auto'
 
-# weather
+# Weather aliases
 alias weather='curl wttr.in/Zagreb'
 
-# show/hide hidden files in finder
+# Show/hide hidden files in finder
 alias hide='defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder'
 alias show='defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder'
 
-# process management
+# Process management
 alias psg='ps aux | grep'
 alias pkill='kill -9'
 
-# file management
+# File management
 alias count='find . -type f | wc -l'
 alias f='find . | grep '
 alias most='du -hsx * | sort -rh | head -10'
 
-# directory management
+# Directory management
 alias cpwd='pwd | tr -d "\n" | pbcopy'
 
-# disk management
+# Disk management
 alias df='df -H'
 alias du='du -ch'
 alias mnt='mount | column -t'
 
-# user and permissions
+# User and permissions
 alias own='sudo chown -R $USER'
 
-# system and environment
+# System and environment
 alias path='echo -e ${PATH//:/\\n}'
 alias ports='sudo lsof -i -P | grep LISTEN'
 alias reload='exec ${SHELL} -l'
 
-# security and hashing
+# Security and hashing
 alias sha='shasum -a 256'
 
-# date and time
+# Date and time
 alias timestamp='date +%Y-%m-%dT%H-%M-%S'
 alias week='date +%V'
 
-# macos
+# Macos
 alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias localip='ipconfig getifaddr en0'
 
-# other
+# Dotfiles
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

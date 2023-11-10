@@ -17,7 +17,6 @@ alias cw='cargo watch'
 alias cwr='cargo watch -x run'
 
 # Change directory overrides
-alias cdd='cd ~/Documents'
 alias cdp='cd ~/projects'
 alias cdw='cd ~/work'
 

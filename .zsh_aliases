@@ -28,7 +28,6 @@ alias cp='cp -i'
 alias mkdir='mkdir -pv'
 alias mv='mv -i'
 alias rm='rm -I --preserve-root'
-alias rmf='rm -rf'
 
 # Docker aliases
 alias dbl='docker build'
@@ -145,6 +144,7 @@ alias most='du -hsx * | sort -rh | head -10'
 
 # Directory management
 alias cpwd='pwd | tr -d "\n" | pbcopy'
+alias rmf='rm -rf'
 
 # Disk management
 alias df='df -H'

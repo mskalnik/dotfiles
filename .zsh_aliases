@@ -101,7 +101,6 @@ alias ln='ln -i'
 alias lt='ls --human-readable --size -1 -S --classify'
 
 # Kubernetes aliases
-alias k='kubectl'
 alias ka='kubectl apply -f'
 alias kdesc='kubectl describe'
 alias ked='kubectl edit'

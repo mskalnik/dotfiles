@@ -1,7 +1,7 @@
 # Dotfiles
 
 This repository contains my personal dotfiles and configuration files for macOS. These dotfiles help me customize and
-streamline my macOS environment to suit my preferences and workflow
+streamline my macOS environment to suit my preferences and workflow.
 
 ## Getting Started
 

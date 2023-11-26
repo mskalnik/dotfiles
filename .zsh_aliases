@@ -173,3 +173,7 @@ alias localip='ipconfig getifaddr en0'
 
 # Dotfiles
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# Editors
+alias c='code'
+alias w='webstorm'

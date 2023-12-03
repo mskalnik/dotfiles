@@ -167,7 +167,6 @@ alias timestamp='date +%Y-%m-%dT%H-%M-%S'
 alias week='date +%V'
 
 # Macos
-alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias localip='ipconfig getifaddr en0'
 

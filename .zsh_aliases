@@ -169,9 +169,12 @@ alias week='date +%V'
 
 # Macos
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
-alias localip='ipconfig getifaddr en0'
 alias macversion="sw_vers -productVersion"
 alias sysinfo='system_profiler SPHardwareDataType'
+
+# Network
+alias localip='ipconfig getifaddr en0'
+alias portcheck='nc -zv'
 
 # Dotfiles
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

@@ -157,7 +157,6 @@ alias chmodme='sudo chmod -R $USER'
 
 # System and environment
 alias path='echo -e ${PATH//:/\\n}'
-alias ports='sudo lsof -i -P | grep LISTEN'
 alias reload='exec ${SHELL} -l'
 
 # Security and hashing

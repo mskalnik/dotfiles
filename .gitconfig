@@ -1,3 +1,6 @@
 [user]
 	name = Marino Skalnik
 	email = marino.skalnik@gmail.com
+
+[core]
+    editor = vim

@@ -2,5 +2,8 @@
 	name = Marino Skalnik
 	email = marino.skalnik@gmail.com
 
+[github]
+	user = mskalnik
+
 [core]
-    editor = vim
+	editor = vim

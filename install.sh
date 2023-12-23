@@ -24,7 +24,8 @@ install_packages() {
 
 setup_ohmyzsh() {
     echo "|-[START] Setting up oh my zsh - $(date)"
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" || { echo "Error setting up Oh My Zsh"; exit 1; }
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" \
+        || { echo "Error setting up Oh My Zsh"; exit 1; }
     chsh -s /opt/homebrew/bin/zsh || { echo "Error changing shell"; exit 1; }
     echo "|-[FINISH] Setting up oh my zsh - $(date)"
 }

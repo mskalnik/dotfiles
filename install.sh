@@ -30,11 +30,19 @@ setup_ohmyzsh() {
     echo "|-[FINISH] Setting up oh my zsh - $(date)"
 }
 
+configure_dotfiles() {
+    echo "|-[START] Configuring dotfiles - $(date)"
+    dotfiles checkout
+    dotfiles config --local status.showUntrackedFiles no
+    echo "|-[FINISH] Configuring dotfiles - $(date)"
+}
+
 main() {
     echo "[START] Installing dotfiles - $(date)"
     backup_dotfiles
     install_packages
     setup_ohmyzsh
+    configure_dotfiles
     echo "[FINISH] Installing dotfiles - $(date)"
 }
 

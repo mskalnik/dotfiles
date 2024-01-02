@@ -100,23 +100,6 @@ alias ll='ls -lisa --color=auto'
 alias ln='ln -i'
 alias lt='ls --human-readable --size -1 -S --classify'
 
-# Kubernetes aliases
-alias ka='kubectl apply -f'
-alias kdesc='kubectl describe'
-alias ked='kubectl edit'
-alias kex='kubectl exec -i -t'
-alias kg='kubectl get'
-alias kga='kubectl get all'
-alias kgall='kubectl get all --all-namespaces'
-alias kinfo='kubectl cluster-info'
-alias klo='kubectl logs -f'
-alias kn='kubectl get nodes'
-alias kpa='kubectl patch -f'
-alias kpv='kubectl get pv'
-alias kpvc='kubectl get pvc'
-alias ksc='kubectl scale'
-alias ktp='kubectl top'
-
 # Tar aliases
 alias tarup='tar czvf'
 alias untar='tar -zxvf'

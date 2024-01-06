@@ -167,7 +167,7 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Editors
 alias c='code'
-alias r='rider'
+alias r='rustrover'
 alias s='sublime'
 alias v='vim'
 alias w='webstorm'

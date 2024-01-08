@@ -166,6 +166,7 @@ alias portcheck='nc -zv'
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Editors
+alias a='aqua'
 alias c='code'
 alias p='pycharm-community'
 alias r='rustrover'

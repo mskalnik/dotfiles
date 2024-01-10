@@ -18,7 +18,7 @@ backup_dotfiles() {
 
 install_packages() {
     echo "|-[START] Installing packages - $(date)"
-    brew install -y cairo openjdk sbt || { echo "Error installing packages"; exit 1; }
+    brew install -y cairo openjdk sbt tree || { echo "Error installing packages"; exit 1; }
     echo "|-[FINISH] Installing packages - $(date)"
 }
 

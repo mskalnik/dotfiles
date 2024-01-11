@@ -2,6 +2,9 @@
 	name = Marino Skalnik
 	email = marino.skalnik@gmail.com
 
+[init]
+	defaultBranch = main
+
 [github]
 	user = mskalnik
 

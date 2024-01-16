@@ -147,7 +147,6 @@ alias reload='exec ${SHELL} -l'
 alias md5='md5 -q'
 alias sha='shasum -a 256'
 alias sha512='shasum -a 512'
-alias whirlpool='openssl dgst -whirlpool'
 
 # Date and time
 alias timestamp='date +%Y-%m-%dT%H-%M-%S'

@@ -156,6 +156,7 @@ alias week='date +%V'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias macversion="sw_vers -productVersion"
 alias sysinfo='system_profiler SPHardwareDataType'
+alias update='sudo softwareupdate -i -a'
 
 # Network
 alias localip='ipconfig getifaddr en0'

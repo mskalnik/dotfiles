@@ -153,6 +153,7 @@ alias timestamp='date +%Y-%m-%dT%H-%M-%S'
 alias week='date +%V'
 
 # Macos
+alias applications='open /Applications'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias macversion="sw_vers -productVersion"
 alias sysinfo='system_profiler SPHardwareDataType'

@@ -153,11 +153,11 @@ alias timestamp='date +%Y-%m-%dT%H-%M-%S'
 alias week='date +%V'
 
 # Macos
-alias applications='open /Applications'
+alias app='open /Applications'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
-alias cleardns='sudo killall -HUP mDNSResponder'
-alias macversion="sw_vers -productVersion"
-alias sysinfo='system_profiler SPHardwareDataType'
+alias cleandns='sudo killall -HUP mDNSResponder'
+alias version="sw_vers -productVersion"
+alias sys='system_profiler SPHardwareDataType'
 alias update='sudo softwareupdate -i -a'
 
 # Network

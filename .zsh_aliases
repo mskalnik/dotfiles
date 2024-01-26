@@ -170,7 +170,6 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # Editors
 alias a='aqua'
 alias c='code'
-alias p='pycharm-community'
 alias r='rustrover'
 alias v='vim'
 alias w='webstorm'

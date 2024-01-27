@@ -156,9 +156,10 @@ alias week='date +%V'
 alias app='open /Applications'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias cleandns='sudo killall -HUP mDNSResponder'
-alias version="sw_vers -productVersion"
 alias sys='system_profiler SPHardwareDataType'
 alias update='sudo softwareupdate -i -a'
+alias version="sw_vers -productVersion"
+alias wifi='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I'
 
 # Network
 alias localip='ipconfig getifaddr en0'

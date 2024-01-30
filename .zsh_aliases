@@ -154,6 +154,7 @@ alias week='date +%V'
 
 # Macos
 alias app='open /Applications'
+alias battery='ioreg -l | grep -i capacity'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias cleandns='sudo killall -HUP mDNSResponder'
 alias drives='diskutil list'

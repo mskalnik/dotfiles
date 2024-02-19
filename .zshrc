@@ -81,7 +81,6 @@ plugins=(
   1password
   autojumps
   brew
-  colemak
   colored-man-pages
   common-aliases
   copyfile

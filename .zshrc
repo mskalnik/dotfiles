@@ -89,7 +89,6 @@ plugins=(
   dotnet
   git
   git-extras
-  github
   gitignore
   macos
   npm

@@ -82,7 +82,6 @@ plugins=(
   autojumps
   brew
   colored-man-pages
-  common-aliases
   copyfile
   copypath
   docker

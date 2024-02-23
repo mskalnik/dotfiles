@@ -170,8 +170,8 @@ alias version="sw_vers -productVersion"
 alias wifi='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I'
 
 # Network
-alias localip='ipconfig getifaddr en0'
-alias portcheck='nc -zv'
+alias ip='ipconfig getifaddr en0'
+alias port='nc -zv'
 
 # Dotfiles
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

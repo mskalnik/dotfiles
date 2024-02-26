@@ -100,7 +100,6 @@ plugins=(
   sbt
   scala
   screen
-  suse
   web-search
   yarn
 )

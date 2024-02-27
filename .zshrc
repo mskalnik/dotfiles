@@ -81,6 +81,7 @@ plugins=(
   1password
   autojumps
   brew
+  bun
   colored-man-pages
   copyfile
   copypath

@@ -83,6 +83,7 @@ plugins=(
   brew
   bun
   colored-man-pages
+  colorize
   copyfile
   copypath
   docker

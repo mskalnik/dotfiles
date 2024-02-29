@@ -102,6 +102,7 @@ plugins=(
   sbt
   scala
   screen
+  vscode
   web-search
   yarn
 )

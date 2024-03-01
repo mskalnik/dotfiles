@@ -98,6 +98,7 @@ plugins=(
   postgres
   pylint
   python
+  react-native
   rust
   sbt
   scala

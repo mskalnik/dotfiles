@@ -89,7 +89,6 @@ plugins=(
   docker
   dotnet
   git
-  git-extras
   gitignore
   macos
   npm

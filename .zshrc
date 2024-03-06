@@ -106,6 +106,7 @@ plugins=(
   screen
   vscode
   web-search
+  wd
   yarn
 )
 

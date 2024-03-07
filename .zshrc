@@ -88,6 +88,7 @@ plugins=(
   copyfile
   copypath
   docker
+  dotenv
   dotnet
   git
   gitignore

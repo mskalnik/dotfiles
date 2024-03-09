@@ -80,6 +80,7 @@ HIST_STAMPS="yyyy-mm-dd"
 plugins=(
   1password
   adb
+  alias-finder
   autojumps
   brew
   bun

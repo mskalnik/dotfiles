@@ -82,6 +82,7 @@ plugins=(
   adb
   alias-finder
   autojumps
+  aws
   brew
   bun
   colored-man-pages

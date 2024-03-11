@@ -92,6 +92,7 @@ plugins=(
   docker
   dotenv
   dotnet
+  emacs
   git
   gitignore
   macos

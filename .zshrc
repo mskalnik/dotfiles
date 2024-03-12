@@ -95,6 +95,7 @@ plugins=(
   emacs
   git
   gitignore
+  golang
   macos
   npm
   nvm

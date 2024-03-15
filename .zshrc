@@ -81,7 +81,7 @@ plugins=(
   1password
   adb
   alias-finder
-  autojumps
+  autojump
   aws
   brew
   bun

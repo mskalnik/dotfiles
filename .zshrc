@@ -95,6 +95,7 @@ plugins=(
   emacs
   git
   gitignore
+  heroku
   macos
   npm
   nvm

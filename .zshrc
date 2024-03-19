@@ -96,7 +96,6 @@ plugins=(
   git
   gitignore
   gnu-utils
-  heroku
   macos
   npm
   nvm

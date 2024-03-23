@@ -98,6 +98,7 @@ plugins=(
   gitignore
   gnu-utils
   macos
+  ng
   npm
   nvm
   pip

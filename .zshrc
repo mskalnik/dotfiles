@@ -99,6 +99,7 @@ plugins=(
   gnu-utils
   macos
   ng
+  node
   npm
   nvm
   pip

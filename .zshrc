@@ -107,7 +107,6 @@ plugins=(
   pylint
   python
   react-native
-  redis-cli
   rust
   sbt
   scala

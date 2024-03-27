@@ -131,7 +131,6 @@ alias rmf='rm -rf'
 # Disk management
 alias df='df -H'
 alias du='du -ch'
-alias lsd='diskutil list'
 alias mnt='mount | column -t'
 
 # User and permissions

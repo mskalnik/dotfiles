@@ -165,7 +165,6 @@ alias rmtrash='sudo rm -rf ~/.Trash/*'
 alias sys='system_profiler SPHardwareDataType'
 alias up='sudo softwareupdate -i -a'
 alias version="sw_vers -productVersion"
-alias wifi='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I'
 
 # Network
 alias ip='ipconfig getifaddr en0'

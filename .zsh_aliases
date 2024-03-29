@@ -5,6 +5,7 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 alias .......='cd ../../../../../..'
+alias ........='cd ../../../../../../..'
 
 # Cargo commands
 alias cb='cargo build'

@@ -149,6 +149,7 @@ alias sha512='shasum -a 512'
 
 # Date and time
 alias cal='ncal -bM'
+alias datetime='date "+%Y-%m-%d %H:%M:%S"'
 alias timestamp='date +%Y-%m-%dT%H-%M-%S'
 alias week='date +%V'
 

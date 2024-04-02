@@ -175,7 +175,6 @@ alias port='nc -zv'
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Editors
-alias a='aqua'
 alias c='code'
 alias r='rustrover'
 alias v='vim'

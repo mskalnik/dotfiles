@@ -93,7 +93,6 @@ alias grbc='git rebase --continue'
 alias grh='git reset --hard'
 alias gst='git status'
 alias gstaa='git stash apply'
-alias gstall='git stash'
 
 # List overrides
 alias la='ls -lisa --color=auto -a'

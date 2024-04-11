@@ -99,6 +99,7 @@ plugins=(
   gnu-utils
   macos
   ng
+  nmap
   node
   npm
   nvm

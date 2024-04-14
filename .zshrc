@@ -93,7 +93,6 @@ plugins=(
   dotenv
   dotnet
   emacs
-  gh
   git
   gitignore
   gnu-utils

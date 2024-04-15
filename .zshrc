@@ -92,7 +92,6 @@ plugins=(
   docker
   dotenv
   dotnet
-  emacs
   git
   gitignore
   gnu-utils

@@ -94,7 +94,6 @@ plugins=(
   dotnet
   git
   gitignore
-  gnu-utils
   macos
   ng
   nmap

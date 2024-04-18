@@ -97,7 +97,6 @@ plugins=(
   gitignore
   macos
   ng
-  nmap
   node
   npm
   nvm

@@ -101,6 +101,7 @@ plugins=(
   npm
   nvm
   pip
+  pipenv
   postgres
   pylint
   python

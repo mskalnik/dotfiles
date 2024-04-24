@@ -175,6 +175,7 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Editors
 alias c='code'
+alias n='nano'
 alias r='rustrover'
 alias v='vim'
 alias w='webstorm'

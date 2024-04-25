@@ -110,7 +110,7 @@ alias fgrep='fgrep --color=auto'
 alias grep='grep --color=auto'
 
 # Weather aliases
-alias weather='curl wttr.in/Zagreb'
+alias weather='curl wttr.in/'
 
 # Show/hide hidden files in finder
 alias hide='defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder'

@@ -153,6 +153,7 @@ alias timestamp='date +%Y-%m-%dT%H-%M-%S'
 alias week='date +%V'
 
 # Macos
+alias activity='open /System/Applications/Utilities/Activity\ Monitor.app'
 alias app='open /Applications'
 alias bat='ioreg -l | grep -i capacity'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'

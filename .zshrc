@@ -85,6 +85,7 @@ plugins=(
   aws
   brew
   bun
+  colemak
   colored-man-pages
   colorize
   copyfile

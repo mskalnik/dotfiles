@@ -94,7 +94,6 @@ plugins=(
   dotenv
   dotnet
   git
-  git-extras
   gitignore
   macos
   ng

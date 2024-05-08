@@ -82,7 +82,6 @@ plugins=(
   adb
   alias-finder
   autojump
-  aws
   brew
   bun
   colemak

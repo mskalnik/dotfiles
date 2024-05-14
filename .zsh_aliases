@@ -135,7 +135,7 @@ alias mnt='mount | column -t'
 
 # User and permissions
 alias own='sudo chown -R $USER'
-alias chmodme='sudo chmod -R $USER'
+alias mod='sudo chmod -R $USER'
 
 # System and environment
 alias path='echo -e ${PATH//:/\\n}'

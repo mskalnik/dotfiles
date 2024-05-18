@@ -91,6 +91,7 @@ plugins=(
   docker
   dotenv
   dotnet
+  encode64
   git
   macos
   ng

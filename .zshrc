@@ -92,6 +92,7 @@ plugins=(
   dotenv
   dotnet
   encode64
+  extract
   git
   macos
   ng

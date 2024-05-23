@@ -93,6 +93,7 @@ plugins=(
   dotnet
   encode64
   extract
+  flutter
   git
   macos
   ng

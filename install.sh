@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOTFILES_DIR="$HOME/dotfiles"
-BACKUP_DIR="$HOME/dotfiles_backup_$(date +'%Y%m%d%H%M%S')"
+BACKUP_DIR="$HOME/dotfiles_backup-$(date +'%Y%m%d%H%M%S')"
 
 backup_dotfiles() {
     echo "|-[START] Backing up dotfiles - $(date)"

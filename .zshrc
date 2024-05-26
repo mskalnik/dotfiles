@@ -140,29 +140,29 @@ fi
 #
 source ~/.zsh_aliases
 
-# ╔ Custom exports
+# Custom exports
 
-# ╠ nvm (Node Version Manager)
+# - nvm (Node Version Manager)
 export NVM_DIR="$HOME/.nvm"
-# Load nvm if the nvm.sh script exists
+# -- load nvm if the nvm.sh script exists
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-# Load nvm bash_completion if the script exists
+# -- load nvm bash_completion if the script exists
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
-# ╠ homebrew
-# Prepend Homebrew binary path to the PATH environment variable
+# - homebrew
+# -- prepend Homebrew binary path to the PATH environment variable
 export PATH=/opt/homebrew/bin:$PATH
 
-# ╠ p10k (Powerlevel10k)
-# Source p10k configuration file if it exists
+# - p10k (Powerlevel10k)
+# -- source p10k configuration file if it exists
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# ╠ postgres (PostgreSQL)
-# Prepend PostgreSQL binary path to the PATH environment variable
+# - postgres (PostgreSQL)
+# -- prepend PostgreSQL binary path to the PATH environment variable
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
-# Set library flags for PostgreSQL
+# -- set library flags for PostgreSQL
 export LDFLAGS="-L/opt/homebrew/opt/postgresql@15/lib"
-# Set compiler flags for PostgreSQL
+# -- set compiler flags for PostgreSQL
 export CPPFLAGS="-I/opt/homebrew/opt/postgresql@15/include"
 
-# ╚ End of custom exports
+# End of custom exports

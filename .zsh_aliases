@@ -121,8 +121,8 @@ alias psg='ps aux | grep'
 alias pkill='kill -9'
 
 # File management
-alias count='find . -type f | wc -l'
-alias most='du -hsx * | sort -rh | head -10'
+alias cnt='find . -type f | wc -l'
+alias mst='du -hsx * | sort -rh | head -10'
 
 # Directory management
 alias cpwd='pwd | tr -d "\n" | pbcopy'

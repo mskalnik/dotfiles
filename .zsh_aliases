@@ -171,7 +171,7 @@ alias wifi='open /System/Library/CoreServices/Applications/Wireless\ Diagnostics
 
 # Network
 alias ip='ipconfig getifaddr en0'
-alias netrestart='sudo ifconfig en0 down && sudo ifconfig en0 up'
+alias netr='sudo ifconfig en0 down && sudo ifconfig en0 up'
 alias prt='nc -zv'
 
 # Dotfiles
